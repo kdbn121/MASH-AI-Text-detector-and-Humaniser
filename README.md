@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="docs/images/mash-card.png" alt="MASH AI Text Diector and Humaniser: one skill that detects AI writing patterns, humanises the prose and proves the similarity is down" width="900">
+  <img src="docs/images/mash-card.png" alt="MASH AI Text detector and Humaniser: one skill that detects AI writing patterns, humanises the prose and proves the similarity is down" width="900">
 </p>
 
 <p align="center">
-  <a href="https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser/actions/workflows/ci.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="MIT Licence" src="https://img.shields.io/badge/licence-MIT-34d399?style=flat-square"></a>
   <img alt="Node 18 or newer" src="https://img.shields.io/badge/node-18%2B-8b949e?style=flat-square">
   <img alt="Python 3 or newer" src="https://img.shields.io/badge/python-3.9%2B-3776ab?style=flat-square">
@@ -12,7 +12,7 @@
   <img alt="Skill for AI agents" src="https://img.shields.io/badge/skill-AI%20agent-6ee7b7?style=flat-square">
 </p>
 
-# MASH AI Text Diector and Humaniser
+# MASH AI Text detector and Humaniser
 
 **One skill for the whole academic writing audit chain: detect the AI writing patterns live, humanise the prose, measure and reduce the similarity, then prove it with numbers.**
 
@@ -47,17 +47,17 @@ The skill is a folder with a `SKILL.md` in it. Copy it into the skills folder of
 agent you use.
 
 ```bash
-git clone https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser.git
+git clone https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser.git
 ```
 
 Then place the folder where your agent looks for skills:
 
 | Agent | Location |
 | --- | --- |
-| Claude Code | `~/.claude/skills/MASH-AI-Text-Diector-and-Humaniser` |
-| OpenAI Codex | `~/.codex/skills/MASH-AI-Text-Diector-and-Humaniser` |
-| opencode | `~/.config/opencode/skill/MASH-AI-Text-Diector-and-Humaniser` |
-| MiniMax Code | `C:\Users\imalp\.minimax\skills\MASH-AI-Text-Diector-and-Humaniser` |
+| Claude Code | `~/.claude/skills/MASH-AI-Text-detector-and-Humaniser` |
+| OpenAI Codex | `~/.codex/skills/MASH-AI-Text-detector-and-Humaniser` |
+| opencode | `~/.config/opencode/skill/MASH-AI-Text-detector-and-Humaniser` |
+| MiniMax Code | `C:\Users\imalp\.minimax\skills\MASH-AI-Text-detector-and-Humaniser` |
 
 Requirements: Node.js 18 or newer for the similarity engine, Python 3.9 or newer for
 the live pattern scripts. Neither needs a third party package.
@@ -132,7 +132,7 @@ The older names `--exclude-front` and `--no-front-no-refs` still work as aliases
 ## Repository layout
 
 ```
-MASH-AI-Text-Diector-and-Humaniser/
+MASH-AI-Text-detector-and-Humaniser/
   SKILL.md                     the merged skill, the five stages and the fixed order
   README.md                    this file
   CHANGELOG.md                 what changed in each version
@@ -207,5 +207,5 @@ MIT. Copyright (c) 2026 MASH (Khaled Bhuiyan).
 ## Links
 
 - Live pattern source: <https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing>
-- Repository: <https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser>
+- Repository: <https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser>
 - Owner: <https://github.com/kdbn121>

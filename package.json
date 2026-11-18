@@ -1,5 +1,5 @@
 {
-  "name": "mash-ai-text-diector-and-humaniser",
+  "name": "mash-ai-text-detector-and-humaniser",
   "version": "1.0.0",
   "description": "One agent skill that runs the academic writing audit chain: live AI pattern detection against the Wikipedia signs of AI writing page, humanising, similarity measurement and reduction, and a proof run",
   "type": "module",
@@ -54,12 +54,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser.git"
+    "url": "https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser.git"
   },
   "bugs": {
-    "url": "https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser/issues"
+    "url": "https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser/issues"
   },
-  "homepage": "https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser#readme",
+  "homepage": "https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser#readme",
   "engines": {
     "node": ">=18.0.0"
   },

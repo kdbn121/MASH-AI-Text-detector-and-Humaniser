@@ -1,10 +1,10 @@
-# GitHub upload sheet for MASH-AI-Text-Diector-and-Humaniser
+# GitHub upload sheet for MASH-AI-Text-detector-and-Humaniser
 
 Everything you need to create the repository on github.com and push the folder.
 
 ## Repository name
 
-    MASH-AI-Text-Diector-and-Humaniser
+    MASH-AI-Text-detector-and-Humaniser
 
 ## Description (the "About" field, 100 character limit)
 
@@ -55,15 +55,15 @@ Everything you need to create the repository on github.com and push the folder.
 
 1. Open https://github.com/new
 2. Owner: kdbn121
-3. Repository name: MASH-AI-Text-Diector-and-Humaniser
+3. Repository name: MASH-AI-Text-detector-and-Humaniser
 4. Description: copy the short description above
 5. Visibility: Public
 6. Do NOT tick "Add a README file", "Add .gitignore" or "Choose a licence". The folder already has all three.
 7. Click "Create repository"
 8. Open GitHub Desktop, or a terminal, in the folder
-       C:\Users\imalp\Projects\MASH-AI-Text-Diector-and-Humaniser
+       C:\Users\imalp\Projects\MASH-AI-Text-detector-and-Humaniser
 9. Add the remote and push
-       git remote add origin https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser.git
+       git remote add origin https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser.git
        git push -u origin main
 10. Set the topics on the repo landing page, in the gear icon beside "About"
 11. Upload the social preview image

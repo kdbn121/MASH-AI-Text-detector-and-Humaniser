@@ -8,7 +8,7 @@ All notable changes to this project are recorded here. The format follows
 
 ### Added
 
-- The merged skill `MASH-AI-Text-Diector-and-Humaniser`, one skill that runs the
+- The merged skill `MASH-AI-Text-detector-and-Humaniser`, one skill that runs the
   academic editor stage, the live pattern check, the humaniser stage, the similarity
   audit and the proof run in a fixed order.
 - The live pattern scripts, `fetch_patterns.py`, `pattern_lint.py` and

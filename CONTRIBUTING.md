@@ -6,8 +6,8 @@ owner, so the bar for a change is that it keeps the chain honest.
 ## Getting set up
 
 ```bash
-git clone https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser.git
-cd MASH-AI-Text-Diector-and-Humaniser
+git clone https://github.com/kdbn121/MASH-AI-Text-detector-and-Humaniser.git
+cd MASH-AI-Text-detector-and-Humaniser
 ```
 
 You need Node.js 18 or newer and Python 3.9 or newer. Neither script needs a third

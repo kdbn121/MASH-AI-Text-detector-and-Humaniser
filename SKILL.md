@@ -1,5 +1,5 @@
 ---
-name: mash-ai-text-diector-and-humaniser
+name: mash-ai-text-detector-and-humaniser
 description: |
   One skill that runs the whole academic writing audit chain in a fixed order: the
   academic editor stage, the live AI pattern check against the current Wikipedia
@@ -14,7 +14,7 @@ description: |
   academic prose. It never disguises work the user did not author.
 ---
 
-# MASH AI Text Diector and Humaniser
+# MASH AI Text detector and Humaniser
 
 Five stages, one order, one proof. The order matters, because each stage measures
 what the stage before it produced.
