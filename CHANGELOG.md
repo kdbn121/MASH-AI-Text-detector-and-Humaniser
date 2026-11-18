@@ -18,7 +18,9 @@ All notable changes to this project are recorded here. The format follows
   `rules/humanizer-rules.md`, with no attribution to any person or company.
 - The live checker routes in `references/live-checkers.md`, with the manual command
   for each checker and the rule for reporting what they returned.
-- The photo card, the social preview and the chain diagram under `docs/images`.
+- The photo card, the social preview and the chain diagram under `docs/images`, with the
+  HTML sources and `docs/images/source/render_images.py` beside them so every image can
+  be regenerated with one command.
 - Continuous integration that runs the engine self test, the skill linter and the
   live pattern lint against a clean sample and a machine flavoured control sample.
 - The examples folder with a sample source, a plan file and the two lint samples.
