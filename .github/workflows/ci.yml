@@ -1,0 +1,77 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved.
+# Part of the MASH AI Text Diector and Humaniser project. See LICENSE in the repository root.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  node:
+    name: Node ${{ matrix.node-version }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['18', '20', '22']
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Skill lint
+        run: node scripts/lint-skill.mjs
+
+      - name: Self test
+        run: node scripts/selftest.mjs
+
+  live-patterns:
+    name: Live pattern check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch the live pattern list
+        run: python scripts/fetch_patterns.py --force
+
+      - name: The clean sample must come back clean
+        run: |
+          set +e
+          python scripts/pattern_lint.py examples/clean-sample.txt --no-title-page-no-refs
+          code=$?
+          set -e
+          if [ "$code" -ne 0 ]; then
+            echo "expected exit code 0 on the clean sample, got $code"
+            exit 1
+          fi
+
+      - name: The control sample must come back with findings
+        run: |
+          set +e
+          python scripts/pattern_lint.py examples/control-ai-sample.txt --no-title-page-no-refs
+          code=$?
+          set -e
+          if [ "$code" -ne 1 ]; then
+            echo "expected exit code 1 on the control sample, got $code"
+            exit 1
+          fi

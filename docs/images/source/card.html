@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MASH AI Text Diector and Humaniser</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1600px; height: 1000px; overflow: hidden; }
+  body {
+    background:
+      radial-gradient(1100px 760px at 8% -14%, #14406a 0%, rgba(20,64,106,0) 62%),
+      radial-gradient(900px 680px at 104% 110%, #2c1f52 0%, rgba(44,31,82,0) 58%),
+      #06090e;
+    font-family: 'Segoe UI', Inter, system-ui, -apple-system, sans-serif;
+    padding: 74px 84px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    position: relative; overflow: hidden;
+  }
+  .grid-bg {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.028) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.028) 1px, transparent 1px);
+    background-size: 52px 52px;
+    mask-image: radial-gradient(900px 620px at 20% 22%, #000 0%, transparent 78%);
+  }
+  .row { position: relative; display: flex; align-items: center; gap: 16px; }
+  .badge {
+    font-size: 16px; font-weight: 800; letter-spacing: 3px; color: #07120d;
+    background: linear-gradient(135deg, #7ee2b8, #34d399); padding: 9px 19px; border-radius: 7px;
+  }
+  .tag { font-size: 16px; color: #8a97a4; letter-spacing: .5px; }
+  h1 {
+    position: relative; font-size: 58px; line-height: 1.08; color: #f4f8fb;
+    font-weight: 800; letter-spacing: -2px; margin-bottom: 22px;
+  }
+  h1 .mark { color: #34d399; }
+  h1 .suffix { color: #93a4b3; font-weight: 700; font-size: 40px; letter-spacing: -1px; }
+  .sub {
+    position: relative; font-size: 26px; line-height: 1.46; max-width: 1080px; color: #9fb0bf;
+  }
+  .sub b { color: #dbe6ef; font-weight: 600; }
+  .chips { position: relative; display: flex; gap: 13px; flex-wrap: wrap; }
+  .chip {
+    font-size: 17px; color: #cfe0f0; background: rgba(255,255,255,.055);
+    border: 1px solid rgba(255,255,255,.1); padding: 12px 19px; border-radius: 10px;
+  }
+  .chip b { color: #34d399; font-weight: 700; }
+  .scope {
+    position: relative; margin-top: 6px; font-size: 17px; color: #7d8b98;
+    border-left: 3px solid #34d399; padding-left: 16px;
+  }
+  .foot {
+    position: relative; display: flex; justify-content: space-between; align-items: flex-end;
+    border-top: 1px solid rgba(255,255,255,.08); padding-top: 24px;
+  }
+  .left { font-size: 16px; color: #7d8b98; line-height: 1.75; }
+  .left b { color: #b7c6d3; font-weight: 600; }
+  .kdbn { font-size: 22px; font-weight: 800; letter-spacing: 5px; color: #6ee7b7; }
+</style>
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <div class="row">
+    <span class="badge">KDBN</span>
+    <span class="tag">MIT licensed &nbsp;&bull;&nbsp; Node.js 18+ &nbsp;&bull;&nbsp; Python 3.9+ &nbsp;&bull;&nbsp; zero dependencies &nbsp;&bull;&nbsp; works offline</span>
+  </div>
+
+  <div>
+    <h1>MASH-AI-Text-<span class="mark">Diector</span><span class="suffix">-and-Humaniser</span><br>
+      one skill for the academic audit chain</h1>
+    <p class="sub">Detect <b>AI writing patterns live</b> against the current Wikipedia list, <b>humanise</b> the prose,
+      <b>measure and reduce similarity</b> in your own writing, then <b>prove it</b> with before and after numbers.</p>
+  </div>
+
+  <div>
+    <div class="chips">
+      <span class="chip"><b>1</b> academic editor</span>
+      <span class="chip"><b>2</b> live pattern check</span>
+      <span class="chip"><b>3</b> humaniser</span>
+      <span class="chip"><b>4</b> similarity audit</span>
+      <span class="chip"><b>5</b> proof run</span>
+    </div>
+    <p class="scope">Every measurement is taken over the body only. The cover page, the contents page and the reference list are excluded.</p>
+  </div>
+
+  <div class="foot">
+    <div class="left">
+      <b>github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser</b><br>
+      Copyright (c) 2026 KDBN (Khaled Bhuiyan)
+    </div>
+    <div class="kdbn">KDBN</div>
+  </div>
+</body>
+</html>

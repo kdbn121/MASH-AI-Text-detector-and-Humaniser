@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MASH chain diagram</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1600px; height: 620px; overflow: hidden; }
+  body {
+    background:
+      radial-gradient(1000px 700px at 6% -18%, #14406a 0%, rgba(20,64,106,0) 60%),
+      radial-gradient(820px 600px at 104% 112%, #2c1f52 0%, rgba(44,31,82,0) 56%),
+      #06090e;
+    font-family: 'Segoe UI', Inter, system-ui, -apple-system, sans-serif;
+    padding: 62px 70px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    position: relative; overflow: hidden;
+  }
+  .grid-bg {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.028) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.028) 1px, transparent 1px);
+    background-size: 52px 52px;
+    mask-image: radial-gradient(880px 600px at 22% 24%, #000 0%, transparent 78%);
+  }
+  .head { position: relative; }
+  h1 { font-size: 42px; color: #f4f8fb; font-weight: 800; letter-spacing: -1.4px; }
+  h1 .mark { color: #34d399; }
+  .head p { margin-top: 12px; font-size: 20px; color: #93a4b3; max-width: 1120px; line-height: 1.5; }
+  .chain { position: relative; display: flex; align-items: stretch; gap: 0; }
+  .stage {
+    flex: 1 1 0; background: rgba(255,255,255,.045);
+    border: 1px solid rgba(255,255,255,.11); border-radius: 14px;
+    padding: 24px 22px; display: flex; flex-direction: column;
+  }
+  .num {
+    font-size: 15px; font-weight: 800; letter-spacing: 2px; color: #07120d;
+    background: linear-gradient(135deg, #7ee2b8, #34d399);
+    width: 34px; height: 34px; border-radius: 9px;
+    display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
+  }
+  .stage h2 { font-size: 22px; color: #f4f8fb; font-weight: 700; letter-spacing: -.4px; margin-bottom: 10px; }
+  .stage p { font-size: 15.5px; color: #9fb0bf; line-height: 1.55; }
+  .stage code {
+    display: inline-block; margin-top: 14px; font-family: Consolas, ui-monospace, monospace;
+    font-size: 13px; color: #cfe0f0; background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.1); border-radius: 7px; padding: 6px 9px;
+  }
+  .arrow {
+    flex: 0 0 46px; display: flex; align-items: center; justify-content: center;
+    color: #34d399; font-size: 26px; font-weight: 700;
+  }
+  .foot { position: relative; display: flex; justify-content: space-between; align-items: flex-end;
+    border-top: 1px solid rgba(255,255,255,.08); padding-top: 20px; }
+  .scope { font-size: 17px; color: #7d8b98; border-left: 3px solid #34d399; padding-left: 16px; line-height: 1.6; }
+  .scope b { color: #b7c6d3; font-weight: 600; }
+  .kdbn { font-size: 20px; font-weight: 800; letter-spacing: 5px; color: #6ee7b7; }
+</style>
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <div class="head">
+    <h1>The <span class="mark">five stage</span> audit chain</h1>
+    <p>The order is fixed in the skill, so a step cannot be skipped by accident. Every stage hands its output to the next one, and the proof run measures the same body twice.</p>
+  </div>
+
+  <div class="chain">
+    <div class="stage">
+      <div class="num">1</div>
+      <h2>Academic editor</h2>
+      <p>Argument, structure, figures, references and the reviewer response are checked before a single sentence is rewritten.</p>
+      <code>agents/academic-editor.md</code>
+    </div>
+    <div class="arrow">&rsaquo;</div>
+    <div class="stage">
+      <div class="num">2</div>
+      <h2>Live pattern check</h2>
+      <p>The current Wikipedia pattern list is fetched and parsed, then the document is linted against what the page says now.</p>
+      <code>scripts/fetch_patterns.py</code>
+    </div>
+    <div class="arrow">&rsaquo;</div>
+    <div class="stage">
+      <div class="num">3</div>
+      <h2>Humaniser</h2>
+      <p>The named patterns, the tone and the machine rhythm are removed from your own prose, in sixteen passes.</p>
+      <code>scripts/transform.mjs</code>
+    </div>
+    <div class="arrow">&rsaquo;</div>
+    <div class="stage">
+      <div class="num">4</div>
+      <h2>Similarity audit</h2>
+      <p>Matched wording is measured against the source you name, then rewritten so the wording is yours.</p>
+      <code>scripts/audit.mjs</code>
+    </div>
+    <div class="arrow">&rsaquo;</div>
+    <div class="stage">
+      <div class="num">5</div>
+      <h2>Proof run</h2>
+      <p>Both measurements run again over the same body and the before and after numbers are reported.</p>
+      <code>pattern_lint.py + audit.mjs</code>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="scope"><b>Body only.</b> The cover page, also called the title page, the contents page and the reference list are excluded from every measurement and every rewrite.</div>
+    <div class="kdbn">KDBN</div>
+  </div>
+</body>
+</html>

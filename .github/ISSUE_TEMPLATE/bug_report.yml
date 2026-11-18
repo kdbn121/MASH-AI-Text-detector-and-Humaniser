@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in the skill behaves in a way you did not expect
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. A command you ran, the file you ran it on and what came
+        back is worth more than a description.
+  - type: input
+    id: command
+    attributes:
+      label: Command
+      description: The exact command you ran
+      placeholder: node scripts/audit.mjs "assignment.docx" --source "source.txt"
+    validations:
+      required: true
+  - type: dropdown
+    id: runtime
+    attributes:
+      label: Runtime
+      options:
+        - Node.js
+        - Python
+        - Word
+        - The agent skill itself
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: The output, including the error message
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: 1.0.0
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

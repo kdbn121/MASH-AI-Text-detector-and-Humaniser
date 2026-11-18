@@ -1,0 +1,28 @@
+{
+  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "_comment": "Hedge bank for the transform engine. Every entry has to read naturally after the first comma of a sentence, and none of them may sound grandiose: a hedge that reads as padding weakens the sentence instead of protecting it. Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT",
+  "items": [
+    "arguably",
+    "plausibly",
+    "ostensibly",
+    "conceivably",
+    "presumably",
+    "tentatively",
+    "apparently",
+    "generally",
+    "typically",
+    "ordinarily",
+    "often",
+    "frequently",
+    "largely",
+    "mostly",
+    "relatively",
+    "somewhat",
+    "partly",
+    "in many cases",
+    "to some extent",
+    "on average",
+    "by and large",
+    "in general"
+  ]
+}

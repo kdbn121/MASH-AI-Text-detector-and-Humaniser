@@ -1,0 +1,2263 @@
+{
+  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "_comment": "Synonym bank for the transform engine. Each value is either a flat array used in any context, or an object with noun / verb / adj pools for words whose part of speech decides which replacement is safe. Only single-word replacements are permitted, because a multi-word replacement cannot be inflected to match the original form. Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT",
+  "analyse": [
+    "examine",
+    "scrutinise",
+    "assess"
+  ],
+  "assess": [
+    "appraise",
+    "evaluate",
+    "gauge"
+  ],
+  "demonstrate": [
+    "illustrate",
+    "evidence",
+    "establish"
+  ],
+  "investigate": [
+    "examine",
+    "explore",
+    "probe"
+  ],
+  "determine": [
+    "ascertain",
+    "establish",
+    "resolve"
+  ],
+  "calculate": [
+    "compute",
+    "quantify",
+    "enumerate"
+  ],
+  "compare": [
+    "contrast",
+    "juxtapose",
+    "benchmark"
+  ],
+  "explain": [
+    "elucidate",
+    "clarify"
+  ],
+  "describe": [
+    "characterise",
+    "delineate",
+    "explicate"
+  ],
+  "consider": [
+    "regard",
+    "conceive"
+  ],
+  "show": [
+    "indicate",
+    "evidence",
+    "attest"
+  ],
+  "provide": [
+    "furnish",
+    "supply",
+    "afford"
+  ],
+  "obtain": [
+    "acquire",
+    "procure",
+    "secure"
+  ],
+  "acquire": [
+    "obtain",
+    "procure",
+    "secure"
+  ],
+  "use": [
+    "apply",
+    "employ",
+    "deploy"
+  ],
+  "require": [
+    "necessitate",
+    "demand",
+    "entail"
+  ],
+  "allow": [
+    "permit",
+    "enable"
+  ],
+  "support": {
+    "noun": [
+      "backing",
+      "endorsement",
+      "justification"
+    ],
+    "verb": [
+      "underpin",
+      "corroborate",
+      "substantiate"
+    ]
+  },
+  "suggest": [
+    "indicate",
+    "imply",
+    "point"
+  ],
+  "reduce": [
+    "curtail",
+    "lower",
+    "diminish"
+  ],
+  "increase": [
+    "escalate",
+    "grow",
+    "rise"
+  ],
+  "improve": [
+    "enhance",
+    "refine",
+    "sharpen"
+  ],
+  "extend": [
+    "broaden",
+    "widen",
+    "expand"
+  ],
+  "implement": [
+    "deploy",
+    "effect",
+    "operationalise"
+  ],
+  "develop": [
+    "formulate",
+    "devise",
+    "construct"
+  ],
+  "formulate": [
+    "articulate",
+    "frame",
+    "express"
+  ],
+  "integrate": [
+    "combine",
+    "consolidate",
+    "amalgamate"
+  ],
+  "validate": [
+    "corroborate",
+    "substantiate",
+    "confirm"
+  ],
+  "verify": [
+    "ascertain",
+    "confirm",
+    "attest"
+  ],
+  "evaluate": [
+    "appraise",
+    "adjudicate",
+    "rate"
+  ],
+  "optimise": [
+    "refine",
+    "calibrate",
+    "streamline"
+  ],
+  "simulate": [
+    "emulate",
+    "replicate",
+    "model"
+  ],
+  "derive": [
+    "elicit",
+    "extrapolate",
+    "infer"
+  ],
+  "compute": [
+    "calculate",
+    "enumerate",
+    "reckon"
+  ],
+  "classify": [
+    "categorise",
+    "group",
+    "sort"
+  ],
+  "measure": {
+    "noun": [
+      "metric",
+      "indicator",
+      "gauge"
+    ],
+    "verb": [
+      "quantify",
+      "gauge",
+      "assess"
+    ]
+  },
+  "observe": [
+    "note",
+    "record",
+    "detect"
+  ],
+  "conclude": [
+    "infer",
+    "deduce",
+    "determine"
+  ],
+  "establish": [
+    "found",
+    "demonstrate",
+    "institute"
+  ],
+  "emphasise": [
+    "stress",
+    "underline",
+    "foreground"
+  ],
+  "highlight": [
+    "foreground",
+    "accentuate",
+    "stress"
+  ],
+  "identify": [
+    "pinpoint",
+    "discern",
+    "isolate"
+  ],
+  "indicate": [
+    "signal",
+    "denote",
+    "point"
+  ],
+  "maintain": [
+    "hold",
+    "sustain",
+    "preserve"
+  ],
+  "reveal": [
+    "expose",
+    "disclose",
+    "uncover"
+  ],
+  "examine": [
+    "inspect",
+    "probe",
+    "scrutinise"
+  ],
+  "modify": [
+    "alter",
+    "adjust",
+    "revise"
+  ],
+  "construct": [
+    "build",
+    "assemble",
+    "fabricate"
+  ],
+  "interpret": [
+    "read",
+    "construe",
+    "decipher"
+  ],
+  "argue": [
+    "contend",
+    "claim",
+    "maintain"
+  ],
+  "believe": [
+    "hold",
+    "maintain",
+    "reckon"
+  ],
+  "create": [
+    "generate",
+    "produce",
+    "originate"
+  ],
+  "apply": [
+    "employ",
+    "deploy",
+    "administer"
+  ],
+  "achieve": [
+    "attain",
+    "accomplish",
+    "realise"
+  ],
+  "select": [
+    "choose",
+    "pick",
+    "single"
+  ],
+  "add": [
+    "append",
+    "supplement",
+    "augment"
+  ],
+  "remove": [
+    "eliminate",
+    "strip",
+    "delete"
+  ],
+  "cause": [
+    "produce"
+  ],
+  "affect": [
+    "influence",
+    "shape",
+    "bear"
+  ],
+  "change": {
+    "noun": [
+      "shift",
+      "alteration",
+      "adjustment"
+    ],
+    "verb": [
+      "shift",
+      "alter",
+      "transform"
+    ]
+  },
+  "help": [
+    "assist",
+    "facilitate",
+    "enable"
+  ],
+  "need": [
+    "require",
+    "necessitate",
+    "demand"
+  ],
+  "start": [
+    "commence",
+    "begin",
+    "initiate"
+  ],
+  "finish": [
+    "conclude",
+    "complete",
+    "terminate"
+  ],
+  "continue": [
+    "persist",
+    "proceed",
+    "carry"
+  ],
+  "report": {
+    "noun": [
+      "account",
+      "record",
+      "paper"
+    ],
+    "verb": [
+      "state",
+      "record",
+      "relate"
+    ]
+  },
+  "find": [
+    "discover",
+    "detect",
+    "identify"
+  ],
+  "give": [
+    "provide",
+    "supply",
+    "furnish"
+  ],
+  "take": [
+    "undertake",
+    "adopt"
+  ],
+  "make": [
+    "produce",
+    "generate",
+    "construct"
+  ],
+  "think": [
+    "consider",
+    "reckon",
+    "conceive"
+  ],
+  "know": [
+    "understand",
+    "comprehend",
+    "grasp"
+  ],
+  "see": [
+    "observe",
+    "perceive",
+    "discern"
+  ],
+  "look": [
+    "examine",
+    "inspect",
+    "survey"
+  ],
+  "draw": [
+    "derive",
+    "infer",
+    "extract"
+  ],
+  "explore": [
+    "investigate",
+    "examine",
+    "probe"
+  ],
+  "note": [
+    "observe",
+    "record",
+    "remark"
+  ],
+  "state": [
+    "declare",
+    "articulate",
+    "assert"
+  ],
+  "propose": [
+    "advance",
+    "put",
+    "suggest"
+  ],
+  "adopt": [
+    "embrace",
+    "employ",
+    "implement"
+  ],
+  "address": [
+    "tackle",
+    "confront"
+  ],
+  "contribute": [
+    "add",
+    "provide",
+    "advance"
+  ],
+  "deliver": [
+    "provide",
+    "supply",
+    "achieve"
+  ],
+  "emerge": [
+    "surface",
+    "appear",
+    "materialise"
+  ],
+  "enable": [
+    "allow",
+    "facilitate",
+    "empower"
+  ],
+  "engage": [
+    "involve",
+    "involve",
+    "occupy"
+  ],
+  "ensure": [
+    "secure",
+    "guarantee",
+    "confirm"
+  ],
+  "generate": [
+    "produce",
+    "create",
+    "yield"
+  ],
+  "involve": [
+    "engage",
+    "require",
+    "demand"
+  ],
+  "perform": [
+    "conduct",
+    "execute",
+    "carry"
+  ],
+  "produce": [
+    "generate",
+    "yield",
+    "create"
+  ],
+  "receive": [
+    "obtain",
+    "gather",
+    "collect"
+  ],
+  "recognise": [
+    "identify",
+    "acknowledge",
+    "admit"
+  ],
+  "reflect": [
+    "mirror",
+    "indicate",
+    "show"
+  ],
+  "replace": [
+    "substitute",
+    "supersede",
+    "displace"
+  ],
+  "respond": [
+    "react",
+    "reply",
+    "answer"
+  ],
+  "retain": [
+    "keep",
+    "preserve",
+    "maintain"
+  ],
+  "seek": [
+    "pursue",
+    "aim",
+    "attempt"
+  ],
+  "shape": [
+    "form",
+    "geometry"
+  ],
+  "shift": [
+    "move",
+    "alter",
+    "redirect"
+  ],
+  "sustain": [
+    "maintain",
+    "support",
+    "uphold"
+  ],
+  "target": [
+    "address",
+    "aim",
+    "direct"
+  ],
+  "trace": [
+    "track",
+    "follow",
+    "chart"
+  ],
+  "translate": [
+    "convert",
+    "render",
+    "interpret"
+  ],
+  "treat": [
+    "handle",
+    "address",
+    "manage"
+  ],
+  "undergo": [
+    "experience",
+    "encounter",
+    "suffer"
+  ],
+  "utilise": [
+    "employ",
+    "apply",
+    "deploy"
+  ],
+  "anticipate": [
+    "expect",
+    "foresee",
+    "predict"
+  ],
+  "assume": [
+    "presume",
+    "suppose",
+    "take"
+  ],
+  "attribute": [
+    "ascribe",
+    "assign",
+    "credit"
+  ],
+  "capture": [
+    "record",
+    "seize",
+    "represent"
+  ],
+  "clarify": [
+    "elucidate",
+    "explain",
+    "illuminate"
+  ],
+  "confirm": [
+    "verify",
+    "corroborate",
+    "substantiate"
+  ],
+  "constrain": [
+    "restrict",
+    "limit",
+    "confine"
+  ],
+  "correspond": [
+    "align",
+    "match",
+    "agree"
+  ],
+  "criticise": [
+    "question",
+    "challenge",
+    "fault"
+  ],
+  "deliberate": [
+    "consider",
+    "weigh",
+    "ponder"
+  ],
+  "distinguish": [
+    "differentiate",
+    "separate",
+    "discern"
+  ],
+  "dominate": [
+    "govern",
+    "prevail",
+    "overshadow"
+  ],
+  "encounter": [
+    "meet",
+    "confront",
+    "experience"
+  ],
+  "exploit": [
+    "utilise",
+    "harness",
+    "capitalise"
+  ],
+  "hypothesise": [
+    "conjecture",
+    "speculate",
+    "postulate"
+  ],
+  "illustrate": [
+    "exemplify",
+    "demonstrate",
+    "depict"
+  ],
+  "imply": [
+    "suggest",
+    "entail",
+    "indicate"
+  ],
+  "justify": [
+    "warrant",
+    "vindicate",
+    "support"
+  ],
+  "minimise": [
+    "reduce",
+    "lessen",
+    "curtail"
+  ],
+  "maximise": [
+    "increase",
+    "amplify",
+    "optimise"
+  ],
+  "monitor": [
+    "track",
+    "oversee",
+    "supervise"
+  ],
+  "omit": [
+    "exclude",
+    "leave",
+    "skip"
+  ],
+  "outline": [
+    "sketch",
+    "trace",
+    "summarise"
+  ],
+  "overlap": [
+    "intersect",
+    "coincide",
+    "converge"
+  ],
+  "persist": [
+    "continue",
+    "endure",
+    "survive"
+  ],
+  "prioritise": [
+    "rank",
+    "favour",
+    "emphasise"
+  ],
+  "publish": [
+    "issue",
+    "release",
+    "circulate"
+  ],
+  "quantify": [
+    "measure",
+    "compute",
+    "calculate"
+  ],
+  "reconcile": [
+    "reconcile",
+    "harmonise",
+    "align"
+  ],
+  "refine": [
+    "sharpen",
+    "polish",
+    "improve"
+  ],
+  "regulate": [
+    "control",
+    "manage",
+    "govern"
+  ],
+  "reinforce": [
+    "strengthen",
+    "bolster",
+    "support"
+  ],
+  "replicate": [
+    "reproduce",
+    "duplicate",
+    "repeat"
+  ],
+  "restructure": [
+    "reorganise",
+    "redesign",
+    "reshape"
+  ],
+  "revisit": [
+    "reexamine",
+    "reconsider",
+    "reassess"
+  ],
+  "revise": [
+    "amend",
+    "update",
+    "rework"
+  ],
+  "scrutinise": [
+    "examine",
+    "inspect",
+    "probe"
+  ],
+  "specify": [
+    "stipulate",
+    "define",
+    "detail"
+  ],
+  "stipulate": [
+    "require",
+    "specify",
+    "state"
+  ],
+  "streamline": [
+    "simplify",
+    "rationalise",
+    "tighten"
+  ],
+  "substantiate": [
+    "support",
+    "validate",
+    "corroborate"
+  ],
+  "supplement": [
+    "complement",
+    "augment",
+    "extend"
+  ],
+  "synthesise": [
+    "integrate",
+    "consolidate",
+    "combine"
+  ],
+  "underpin": [
+    "support",
+    "ground",
+    "anchor"
+  ],
+  "undertake": [
+    "conduct",
+    "perform",
+    "pursue"
+  ],
+  "articulate": [
+    "express",
+    "state",
+    "formulate"
+  ],
+  "benchmark": [
+    "reference",
+    "baseline",
+    "yardstick"
+  ],
+  "result": {
+    "noun": [
+      "outcome",
+      "finding"
+    ],
+    "verb": [
+      "consequence",
+      "effect",
+      "outcome"
+    ]
+  },
+  "method": [
+    "procedure",
+    "protocol",
+    "technique"
+  ],
+  "approach": [
+    "strategy",
+    "framework",
+    "design"
+  ],
+  "problem": [
+    "issue",
+    "difficulty",
+    "constraint"
+  ],
+  "idea": [
+    "notion",
+    "concept",
+    "principle"
+  ],
+  "information": [
+    "data",
+    "evidence",
+    "material"
+  ],
+  "amount": [
+    "quantity",
+    "volume"
+  ],
+  "part": [
+    "component",
+    "element",
+    "aspect"
+  ],
+  "reason": [
+    "cause",
+    "basis",
+    "rationale"
+  ],
+  "benefit": [
+    "advantage",
+    "gain",
+    "upside"
+  ],
+  "aim": [
+    "objective",
+    "purpose",
+    "goal"
+  ],
+  "effect": [
+    "impact",
+    "consequence",
+    "influence"
+  ],
+  "finding": [
+    "observation",
+    "result",
+    "conclusion"
+  ],
+  "evidence": [
+    "proof",
+    "substantiation",
+    "finding"
+  ],
+  "analysis": [
+    "examination",
+    "assessment",
+    "scrutiny"
+  ],
+  "factor": [
+    "element",
+    "determinant",
+    "variable"
+  ],
+  "pattern": [
+    "configuration",
+    "sequence",
+    "regularity"
+  ],
+  "difference": [
+    "discrepancy",
+    "divergence",
+    "contrast"
+  ],
+  "importance": [
+    "significance",
+    "relevance",
+    "weight"
+  ],
+  "relevance": [
+    "pertinence",
+    "appositeness",
+    "bearing"
+  ],
+  "accuracy": [
+    "precision",
+    "exactitude",
+    "correctness"
+  ],
+  "significance": [
+    "importance",
+    "weight",
+    "consequence"
+  ],
+  "sufficiency": [
+    "adequacy",
+    "adequacy",
+    "ample"
+  ],
+  "addition": [
+    "supplement",
+    "increment",
+    "accretion"
+  ],
+  "conclusion": {
+    "noun": [
+      "finding",
+      "deduction",
+      "verdict"
+    ],
+    "verb": [
+      "close",
+      "terminate",
+      "settle"
+    ]
+  },
+  "implementation": [
+    "application"
+  ],
+  "adoption": [
+    "uptake",
+    "embrace",
+    "take"
+  ],
+  "driver": [
+    "determinant",
+    "catalyst",
+    "motive"
+  ],
+  "barrier": [
+    "obstacle",
+    "impediment",
+    "hurdle"
+  ],
+  "outcome": [
+    "result",
+    "consequence",
+    "upshot"
+  ],
+  "relationship": [
+    "association",
+    "correlation",
+    "link"
+  ],
+  "literature": [
+    "scholarship",
+    "research"
+  ],
+  "scope": [
+    "range",
+    "breadth",
+    "remit"
+  ],
+  "validity": [
+    "soundness",
+    "rigour",
+    "credibility"
+  ],
+  "sample": [
+    "selection",
+    "cohort",
+    "group"
+  ],
+  "interview": [
+    "conversation",
+    "consultation",
+    "enquiry"
+  ],
+  "limitation": [
+    "constraint",
+    "shortcoming",
+    "ceiling"
+  ],
+  "success": [
+    "achievement",
+    "attainment",
+    "accomplishment"
+  ],
+  "constraint": [
+    "limitation",
+    "restriction",
+    "determinant"
+  ],
+  "capacity": [
+    "capability",
+    "ability",
+    "potential"
+  ],
+  "capability": [
+    "capacity",
+    "competence",
+    "ability"
+  ],
+  "routine": [
+    "practice",
+    "procedure",
+    "habit"
+  ],
+  "workflow": [
+    "process",
+    "procedure",
+    "practice"
+  ],
+  "discretion": [
+    "latitude",
+    "judgement",
+    "autonomy"
+  ],
+  "processing": [
+    "handling",
+    "treatment",
+    "administration"
+  ],
+  "cost": [
+    "expense",
+    "expenditure",
+    "burden"
+  ],
+  "decision": [
+    "judgement",
+    "determination",
+    "call"
+  ],
+  "system": [
+    "framework"
+  ],
+  "service": [
+    "provision",
+    "offering",
+    "utility"
+  ],
+  "government": {
+    "noun": [
+      "the state",
+      "the authorities",
+      "public administration"
+    ]
+  },
+  "sector": [
+    "domain",
+    "field",
+    "segment"
+  ],
+  "organisation": [
+    "body",
+    "institution",
+    "agency"
+  ],
+  "attention": [
+    "interest",
+    "notice",
+    "focus"
+  ],
+  "decade": [
+    "ten",
+    "period",
+    "span"
+  ],
+  "extent": [
+    "degree",
+    "breadth"
+  ],
+  "sophistication": [
+    "complexity",
+    "elaborateness"
+  ],
+  "degree": [
+    "extent",
+    "level",
+    "measure"
+  ],
+  "perspective": [
+    "viewpoint",
+    "lens",
+    "angle"
+  ],
+  "framework": [
+    "structure",
+    "scheme",
+    "model"
+  ],
+  "mechanism": [
+    "process",
+    "channel",
+    "route"
+  ],
+  "context": [
+    "setting",
+    "background",
+    "environment"
+  ],
+  "implication": [
+    "consequence",
+    "ramification",
+    "significance"
+  ],
+  "recommendation": [
+    "proposal",
+    "suggestion",
+    "advice"
+  ],
+  "innovation": [
+    "novelty",
+    "breakthrough",
+    "development"
+  ],
+  "resilience": [
+    "robustness",
+    "adaptability",
+    "toughness"
+  ],
+  "maturity": [
+    "development",
+    "ripeness",
+    "sophistication"
+  ],
+  "governance": [
+    "administration",
+    "oversight",
+    "direction"
+  ],
+  "accountability": [
+    "responsibility",
+    "answerability",
+    "scrutiny"
+  ],
+  "transparency": [
+    "openness",
+    "clarity",
+    "candour"
+  ],
+  "sustainability": [
+    "viability",
+    "durability",
+    "endurability"
+  ],
+  "equity": [
+    "fairness",
+    "parity",
+    "justice"
+  ],
+  "effectiveness": [
+    "efficacy",
+    "success",
+    "usefulness"
+  ],
+  "credibility": [
+    "trustworthiness",
+    "reliability",
+    "authority"
+  ],
+  "legitimacy": [
+    "validity",
+    "justification",
+    "authority"
+  ],
+  "trust": [
+    "confidence",
+    "faith",
+    "reliance"
+  ],
+  "value": [
+    "worth",
+    "magnitude"
+  ],
+  "risk": [
+    "hazard",
+    "exposure",
+    "threat"
+  ],
+  "uncertainty": [
+    "doubt",
+    "ambiguity",
+    "indeterminacy"
+  ],
+  "complexity": [
+    "complication",
+    "intricacy",
+    "entanglement"
+  ],
+  "ambiguity": [
+    "unclear",
+    "obscurity",
+    "equivocality"
+  ],
+  "tension": [
+    "strain",
+    "friction",
+    "discord"
+  ],
+  "conflict": [
+    "disagreement",
+    "clash",
+    "dispute"
+  ],
+  "agreement": [
+    "concord",
+    "consensus",
+    "accord"
+  ],
+  "trend": [
+    "tendency",
+    "pattern",
+    "direction"
+  ],
+  "distribution": [
+    "spread",
+    "allocation",
+    "dispersion"
+  ],
+  "variation": [
+    "variability",
+    "fluctuation",
+    "deviation"
+  ],
+  "threshold": [
+    "cutoff",
+    "benchmark",
+    "boundary"
+  ],
+  "criterion": [
+    "standard",
+    "measure",
+    "test"
+  ],
+  "indicator": [
+    "measure",
+    "signal",
+    "index"
+  ],
+  "ratio": [
+    "proportion",
+    "quotient",
+    "rate"
+  ],
+  "proportion": [
+    "share",
+    "percentage",
+    "fraction"
+  ],
+  "scale": [
+    "magnitude",
+    "extent",
+    "size"
+  ],
+  "magnitude": [
+    "scale",
+    "size",
+    "degree"
+  ],
+  "breadth": [
+    "width",
+    "scope",
+    "range"
+  ],
+  "depth": [
+    "depth",
+    "extent",
+    "profundity"
+  ],
+  "focus": [
+    "emphasis",
+    "centre",
+    "priority"
+  ],
+  "emphasis": [
+    "stress",
+    "weight",
+    "salience"
+  ],
+  "priority": [
+    "preference",
+    "importance",
+    "ranking"
+  ],
+  "balance": [
+    "equilibrium",
+    "proportion",
+    "equilibrium"
+  ],
+  "contrast": [
+    "difference",
+    "contrast",
+    "divergence"
+  ],
+  "comparison": [
+    "contrast",
+    "benchmark",
+    "contrast"
+  ],
+  "synthesis": [
+    "integration",
+    "combination",
+    "amalgamation"
+  ],
+  "fragmentation": [
+    "disintegration",
+    "division",
+    "splintering"
+  ],
+  "standardisation": [
+    "normalisation",
+    "uniformity",
+    "regularisation"
+  ],
+  "automation": [
+    "mechanisation",
+    "robotisation",
+    "computerisation"
+  ],
+  "digitisation": [
+    "computerisation",
+    "digitalisation",
+    "automation"
+  ],
+  "transformation": [
+    "change",
+    "restructuring",
+    "conversion"
+  ],
+  "reform": [
+    "redesign",
+    "revamp",
+    "overhaul"
+  ],
+  "restructuring": [
+    "reorganisation",
+    "reshaping",
+    "redesign"
+  ],
+  "centralisation": [
+    "concentration",
+    "consolidation",
+    "centralization"
+  ],
+  "decentralisation": [
+    "dispersion",
+    "devolution",
+    "distribution"
+  ],
+  "collaboration": [
+    "cooperation",
+    "partnership",
+    "joint"
+  ],
+  "coordination": [
+    "harmonisation",
+    "alignment",
+    "synchronisation"
+  ],
+  "communication": [
+    "dialogue",
+    "exchange",
+    "correspondence"
+  ],
+  "consultation": [
+    "deliberation",
+    "discussion",
+    "engagement"
+  ],
+  "participation": [
+    "involvement",
+    "engagement",
+    "attendance"
+  ],
+  "engagement": [
+    "involvement",
+    "participation",
+    "commitment"
+  ],
+  "scrutiny": [
+    "examination",
+    "inspection",
+    "review"
+  ],
+  "deliberation": [
+    "consideration",
+    "debate",
+    "discussion"
+  ],
+  "comprehension": [
+    "understanding",
+    "grasp",
+    "apprehension"
+  ],
+  "recognition": [
+    "acknowledgement",
+    "identification",
+    "acclamation"
+  ],
+  "generalisation": [
+    "abstraction",
+    "generalisation",
+    "extrapolation"
+  ],
+  "convergence": [
+    "coalescence",
+    "merger",
+    "convergence"
+  ],
+  "divergence": [
+    "divergence",
+    "discrepancy",
+    "disparity"
+  ],
+  "uptake": [
+    "adoption",
+    "absorption",
+    "acquisition"
+  ],
+  "compliance": [
+    "adherence",
+    "conformity",
+    "obedience"
+  ],
+  "retention": [
+    "persistence",
+    "continuance",
+    "preservation"
+  ],
+  "throughput": [
+    "output",
+    "productivity",
+    "capacity"
+  ],
+  "usability": [
+    "usability",
+    "practicality",
+    "workability"
+  ],
+  "accessibility": [
+    "availability",
+    "reach",
+    "inclusivity"
+  ],
+  "scalability": [
+    "expandability",
+    "flexibility",
+    "capacity"
+  ],
+  "redundancy": [
+    "duplication",
+    "surplus",
+    "overcapacity"
+  ],
+  "study": [
+    "investigation",
+    "examination"
+  ],
+  "evidence_base": [
+    "research",
+    "findings",
+    "record"
+  ],
+  "important": [
+    "consequential",
+    "material",
+    "significant"
+  ],
+  "relevant": [
+    "pertinent",
+    "germane",
+    "apposite"
+  ],
+  "accurate": [
+    "precise",
+    "faithful",
+    "scrupulous"
+  ],
+  "significant": {
+    "adj": [
+      "notable",
+      "material",
+      "sizeable"
+    ],
+    "adverb": [
+      "markedly",
+      "considerably"
+    ]
+  },
+  "substantial": {
+    "adj": [
+      "considerable",
+      "extensive",
+      "sizeable"
+    ],
+    "adverb": [
+      "considerably",
+      "extensively",
+      "sizeably"
+    ]
+  },
+  "necessary": [
+    "requisite",
+    "indispensable",
+    "essential"
+  ],
+  "sufficient": [
+    "adequate",
+    "ample",
+    "satisfactory"
+  ],
+  "appropriate": [
+    "suitable",
+    "fitting",
+    "apt"
+  ],
+  "additional": [
+    "supplementary",
+    "further",
+    "supplemental"
+  ],
+  "primary": [
+    "principal",
+    "foremost"
+  ],
+  "final": {
+    "adj": [
+      "closing",
+      "last",
+      "terminal"
+    ],
+    "adverb": [
+      "ultimately",
+      "eventually",
+      "lastly"
+    ]
+  },
+  "initial": {
+    "adj": [
+      "preliminary",
+      "opening",
+      "introductory"
+    ],
+    "adverb": [
+      "initially",
+      "originally",
+      "first"
+    ]
+  },
+  "current": {
+    "adj": [
+      "present",
+      "existing",
+      "prevailing"
+    ],
+    "adverb": [
+      "currently",
+      "presently",
+      "today"
+    ]
+  },
+  "recent": {
+    "adj": [
+      "contemporary",
+      "latest",
+      "newer"
+    ],
+    "adverb": [
+      "recently",
+      "lately",
+      "newly"
+    ]
+  },
+  "previous": {
+    "adj": [
+      "earlier",
+      "prior",
+      "preceding"
+    ],
+    "adverb": [
+      "formerly",
+      "previously",
+      "earlier"
+    ]
+  },
+  "various": [
+    "assorted",
+    "diverse",
+    "sundry"
+  ],
+  "large": {
+    "adj": [
+      "sizeable",
+      "substantial",
+      "considerable"
+    ],
+    "adverb": [
+      "greatly",
+      "considerably",
+      "sizeably"
+    ]
+  },
+  "small": {
+    "adj": [
+      "modest",
+      "minor",
+      "limited"
+    ],
+    "adverb": [
+      "slightly",
+      "marginally",
+      "modestly"
+    ]
+  },
+  "good": {
+    "adj": [
+      "effective",
+      "sound",
+      "workable"
+    ],
+    "adverb": [
+      "effectively",
+      "soundly",
+      "reliably"
+    ]
+  },
+  "difficult": {
+    "adj": [
+      "demanding",
+      "arduous",
+      "onerous"
+    ],
+    "adverb": [
+      "arduously",
+      "painfully",
+      "laboriously"
+    ]
+  },
+  "quickly": [
+    "rapidly",
+    "swiftly",
+    "promptly"
+  ],
+  "clearly": [
+    "evidently",
+    "unmistakably",
+    "plainly"
+  ],
+  "often": [
+    "frequently",
+    "routinely",
+    "commonly"
+  ],
+  "usually": [
+    "typically",
+    "ordinarily",
+    "customarily"
+  ],
+  "rarely": [
+    "seldom",
+    "infrequently",
+    "exceptionally"
+  ],
+  "complex": [
+    "complicated",
+    "involved"
+  ],
+  "simple": {
+    "adj": [
+      "straightforward",
+      "plain",
+      "uncomplicated"
+    ],
+    "adverb": [
+      "plainly",
+      "straightforwardly",
+      "simply"
+    ]
+  },
+  "clear": {
+    "adj": [
+      "evident",
+      "apparent",
+      "unambiguous"
+    ],
+    "adverb": [
+      "evidently",
+      "plainly",
+      "manifestly"
+    ]
+  },
+  "likely": {
+    "adj": [
+      "probable",
+      "plausible",
+      "credible"
+    ],
+    "adverb": [
+      "probably",
+      "apparently",
+      "presumably"
+    ]
+  },
+  "possible": {
+    "adj": [
+      "feasible",
+      "workable",
+      "attainable"
+    ],
+    "adverb": [
+      "possibly",
+      "conceivably",
+      "feasibly"
+    ]
+  },
+  "valuable": [
+    "useful",
+    "productive",
+    "worthwhile"
+  ],
+  "useful": [
+    "helpful",
+    "valuable",
+    "productive"
+  ],
+  "reliable": [
+    "dependable",
+    "consistent",
+    "trustworthy"
+  ],
+  "valid": [
+    "sound",
+    "coherent",
+    "tenable"
+  ],
+  "robust": [
+    "resilient"
+  ],
+  "stable": [
+    "steady",
+    "consistent",
+    "unchanging"
+  ],
+  "flexible": [
+    "adaptable",
+    "accommodating",
+    "elastic"
+  ],
+  "effective": [
+    "successful",
+    "functional"
+  ],
+  "comprehensive": [
+    "thorough",
+    "extensive"
+  ],
+  "detailed": [
+    "granular",
+    "elaborate",
+    "minute"
+  ],
+  "extensive": [
+    "wide",
+    "broad",
+    "substantial"
+  ],
+  "systematic": [
+    "structured",
+    "methodical",
+    "orderly"
+  ],
+  "rigorous": [
+    "stringent",
+    "exacting",
+    "thorough"
+  ],
+  "empirical": [
+    "observational"
+  ],
+  "theoretical": [
+    "conceptual",
+    "abstract",
+    "formal"
+  ],
+  "practical": [
+    "applied",
+    "real",
+    "pragmatic"
+  ],
+  "analytical": [
+    "analytic",
+    "interpretive",
+    "logical"
+  ],
+  "critical": [
+    "crucial",
+    "decisive",
+    "determining"
+  ],
+  "innovative": [
+    "novel",
+    "original",
+    "pioneering"
+  ],
+  "incremental": [
+    "gradual",
+    "progressive"
+  ],
+  "gradual": [
+    "progressive",
+    "incremental",
+    "phased"
+  ],
+  "rapid": [
+    "swift",
+    "fast",
+    "accelerated"
+  ],
+  "steady": [
+    "sustained",
+    "consistent",
+    "uninterrupted"
+  ],
+  "marked": [
+    "pronounced",
+    "notable",
+    "evident"
+  ],
+  "considerable": [
+    "substantial",
+    "sizeable",
+    "appreciable"
+  ],
+  "notable": [
+    "noteworthy",
+    "remarkable",
+    "significant"
+  ],
+  "central": [
+    "crucial",
+    "principal",
+    "defining"
+  ],
+  "marginal": [
+    "peripheral",
+    "limited",
+    "slight"
+  ],
+  "uncertain": [
+    "unclear",
+    "indeterminate",
+    "equivocal"
+  ],
+  "controversial": [
+    "contested",
+    "disputed",
+    "contentious"
+  ],
+  "emerging": [
+    "developing",
+    "evolving",
+    "burgeoning"
+  ],
+  "established": [
+    "well",
+    "settled",
+    "consolidated"
+  ],
+  "mature": [
+    "developed",
+    "advanced",
+    "evolved"
+  ],
+  "prior": [
+    "earlier",
+    "previous",
+    "preceding"
+  ],
+  "subsequent": [
+    "following",
+    "later",
+    "ensuing"
+  ],
+  "causal": [
+    "causation",
+    "attributive",
+    "causal"
+  ],
+  "descriptive": [
+    "depictive",
+    "illustrative",
+    "characterising"
+  ],
+  "predictive": [
+    "forecasting",
+    "anticipatory",
+    "prognostic"
+  ],
+  "normative": [
+    "prescriptive",
+    "prescriptive",
+    "value"
+  ],
+  "temporal": [
+    "chronological",
+    "time",
+    "diachronic"
+  ],
+  "spatial": [
+    "geographical",
+    "geographic",
+    "locational"
+  ],
+  "organisational": [
+    "structural",
+    "institutional",
+    "administrative"
+  ],
+  "institutional": [
+    "organisational",
+    "structural",
+    "formal"
+  ],
+  "socio-economic": [
+    "socioeconomic",
+    "societal",
+    "welfare"
+  ],
+  "longitudinal": [
+    "longitudinal",
+    "time",
+    "extended"
+  ],
+  "qualitative": [
+    "interpretive",
+    "idiographic",
+    "hermeneutic"
+  ],
+  "quantitative": [
+    "numeric",
+    "statistical",
+    "numerical"
+  ],
+  "interdisciplinary": [
+    "cross-disciplinary",
+    "transdisciplinary",
+    "multidisciplinary"
+  ],
+  "salient": [
+    "prominent",
+    "conspicuous",
+    "notable"
+  ],
+  "pervasive": [
+    "widespread",
+    "ubiquitous",
+    "pervasive"
+  ],
+  "recurrent": [
+    "repeated",
+    "periodic",
+    "frequent"
+  ],
+  "persistent": [
+    "sustained",
+    "continuing",
+    "lingering"
+  ],
+  "durable": [
+    "lasting",
+    "enduring",
+    "hardy"
+  ],
+  "vulnerable": [
+    "susceptible",
+    "exposed",
+    "at"
+  ],
+  "coherent": [
+    "consistent",
+    "logical",
+    "unified"
+  ],
+  "consistent": [
+    "coherent",
+    "uniform",
+    "steady"
+  ],
+  "main": [
+    "principal",
+    "central",
+    "leading"
+  ],
+  "key": [
+    "crucial",
+    "principal",
+    "defining"
+  ],
+  "major": [
+    "significant",
+    "principal"
+  ],
+  "minor": [
+    "secondary",
+    "minor",
+    "lesser"
+  ],
+  "overall": [
+    "aggregate",
+    "combined"
+  ],
+  "total": [
+    "entire",
+    "complete",
+    "overall"
+  ],
+  "average": [
+    "mean",
+    "typical",
+    "median"
+  ],
+  "general": {
+    "adj": [
+      "broad",
+      "overall",
+      "general"
+    ],
+    "adverb": [
+      "generally",
+      "broadly",
+      "commonly"
+    ]
+  },
+  "specific": [
+    "particular",
+    "precise",
+    "definite"
+  ],
+  "particular": [
+    "specific",
+    "certain",
+    "singular"
+  ],
+  "alternative": [
+    "option",
+    "variant",
+    "substitute"
+  ],
+  "similar": [
+    "comparable",
+    "analogous",
+    "alike"
+  ],
+  "comparable": [
+    "similar",
+    "equivalent",
+    "analogous"
+  ],
+  "equivalent": [
+    "comparable",
+    "equal",
+    "counterpart"
+  ],
+  "different": [
+    "distinct",
+    "separate"
+  ],
+  "distinct": [
+    "distinct",
+    "separate",
+    "discrete"
+  ],
+  "separate": [
+    "distinct",
+    "individual",
+    "discrete"
+  ],
+  "strong": {
+    "adj": [
+      "powerful",
+      "compelling",
+      "forceful"
+    ],
+    "adverb": [
+      "powerfully",
+      "compellingly",
+      "robustly"
+    ]
+  },
+  "weak": {
+    "adj": [
+      "feeble",
+      "slight",
+      "frail"
+    ],
+    "adverb": [
+      "insufficiently",
+      "imperfectly",
+      "inadequately"
+    ]
+  },
+  "high": {
+    "adj": [
+      "elevated",
+      "heightened",
+      "upper"
+    ],
+    "adverb": [
+      "markedly",
+      "greatly",
+      "considerably"
+    ]
+  },
+  "low": {
+    "adj": [
+      "reduced",
+      "modest",
+      "lower"
+    ],
+    "adverb": [
+      "marginally",
+      "slightly",
+      "modestly"
+    ]
+  },
+  "wide": {
+    "adj": [
+      "broad",
+      "extensive",
+      "expansive"
+    ],
+    "adverb": [
+      "widely",
+      "broadly",
+      "extensively"
+    ]
+  },
+  "narrow": [
+    "restricted",
+    "limited",
+    "modest"
+  ],
+  "broad": [
+    "wide",
+    "extensive",
+    "comprehensive"
+  ],
+  "new": [
+    "novel"
+  ],
+  "old": [
+    "former",
+    "earlier",
+    "previous"
+  ],
+  "poor": {
+    "adj": [
+      "weak",
+      "inadequate",
+      "substandard"
+    ],
+    "adverb": [
+      "badly",
+      "inadequately",
+      "incompetently"
+    ]
+  },
+  "better": [
+    "improved",
+    "superior",
+    "stronger"
+  ],
+  "however": [
+    "nevertheless",
+    "nonetheless",
+    "that"
+  ],
+  "therefore": [
+    "consequently",
+    "hence",
+    "accordingly"
+  ],
+  "moreover": [
+    "additionally",
+    "besides",
+    "also"
+  ],
+  "although": [
+    "though",
+    "granted",
+    "while"
+  ],
+  "thus": [
+    "hence",
+    "accordingly",
+    "so"
+  ],
+  "indeed": [
+    "certainly",
+    "truly",
+    "really"
+  ],
+  "similarly": [
+    "likewise",
+    "comparably",
+    "equally"
+  ],
+  "specifically": [
+    "precisely",
+    "particularly",
+    "namely"
+  ],
+  "notably": [
+    "remarkably",
+    "conspicuously",
+    "strikingly"
+  ],
+  "meanwhile": [
+    "concurrently",
+    "simultaneously",
+    "interim"
+  ],
+  "conversely": [
+    "contrarily",
+    "oppositely",
+    "conversely"
+  ],
+  "ultimately": [
+    "eventually",
+    "finally",
+    "lastly"
+  ],
+  "essentially": [
+    "fundamentally",
+    "basically",
+    "essentially"
+  ],
+  "actually": [
+    "really",
+    "genuinely",
+    "indeed"
+  ],
+  "currently": [
+    "presently",
+    "now",
+    "today"
+  ],
+  "previously": [
+    "formerly",
+    "earlier",
+    "hitherto"
+  ],
+  "finally": [
+    "lastly",
+    "eventually",
+    "ultimately"
+  ]
+}

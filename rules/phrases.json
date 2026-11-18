@@ -1,0 +1,325 @@
+{
+  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "items": [
+    [
+      "this research paper",
+      "the present work"
+    ],
+    [
+      "this study",
+      "this investigation"
+    ],
+    [
+      "in this study",
+      "in this investigation"
+    ],
+    [
+      "this paper",
+      "this article"
+    ],
+    [
+      "previous studies have shown that",
+      "earlier work has established that"
+    ],
+    [
+      "previous research has shown that",
+      "earlier work has established that"
+    ],
+    [
+      "has been widely studied",
+      "has attracted sustained scholarly attention"
+    ],
+    [
+      "it has been reported that",
+      "the published record indicates that"
+    ],
+    [
+      "according to recent research",
+      "contemporary scholarship indicates that"
+    ],
+    [
+      "is well documented",
+      "is amply documented in the literature"
+    ],
+    [
+      "as mentioned earlier",
+      "as noted in the preceding section"
+    ],
+    [
+      "the existing literature",
+      "the prevailing body of scholarship"
+    ],
+    [
+      "a large body of work",
+      "an extensive literature"
+    ],
+    [
+      "has attracted considerable interest",
+      "has commanded sustained interest"
+    ],
+    [
+      "little attention has been paid to",
+      "has received comparatively little scrutiny"
+    ],
+    [
+      "has been the subject of much debate",
+      "has been much debated"
+    ],
+    [
+      "the aim of this study",
+      "the objective of the present inquiry"
+    ],
+    [
+      "the purpose of this study",
+      "the objective of the present inquiry"
+    ],
+    [
+      "in order to",
+      "with the aim of"
+    ],
+    [
+      "by means of",
+      "through"
+    ],
+    [
+      "with respect to",
+      "in relation to"
+    ],
+    [
+      "takes into account",
+      "gives due weight to"
+    ],
+    [
+      "is based on",
+      "draws on"
+    ],
+    [
+      "data were collected",
+      "data were gathered"
+    ],
+    [
+      "data were analysed",
+      "data were examined"
+    ],
+    [
+      "in the case of",
+      "for"
+    ],
+    [
+      "due to the fact that",
+      "because"
+    ],
+    [
+      "in the event that",
+      "if"
+    ],
+    [
+      "a variety of factors",
+      "several factors"
+    ],
+    [
+      "prior to",
+      "before"
+    ],
+    [
+      "subsequent to",
+      "after"
+    ],
+    [
+      "is dependent on",
+      "hinges on"
+    ],
+    [
+      "was carried out",
+      "was undertaken"
+    ],
+    [
+      "was conducted",
+      "was administered"
+    ],
+    [
+      "a sample of",
+      "a selection of"
+    ],
+    [
+      "the results indicate",
+      "the findings suggest"
+    ],
+    [
+      "it can be seen that",
+      "it emerges that"
+    ],
+    [
+      "as shown in",
+      "as illustrated in"
+    ],
+    [
+      "it was found that",
+      "the analysis showed that"
+    ],
+    [
+      "a marked increase",
+      "a marked rise"
+    ],
+    [
+      "a marked decrease",
+      "a marked fall"
+    ],
+    [
+      "is proportional to",
+      "scales with"
+    ],
+    [
+      "compared with",
+      "in relation to"
+    ],
+    [
+      "on average",
+      "typically"
+    ],
+    [
+      "in most cases",
+      "typically"
+    ],
+    [
+      "it is worth noting that",
+      ""
+    ],
+    [
+      "this can be attributed to",
+      "this is traceable to"
+    ],
+    [
+      "plays a crucial role",
+      "is central to"
+    ],
+    [
+      "is consistent with",
+      "accords with"
+    ],
+    [
+      "in agreement with",
+      "in concordance with"
+    ],
+    [
+      "these findings suggest that",
+      "the evidence points to"
+    ],
+    [
+      "a significant factor",
+      "a material factor"
+    ],
+    [
+      "further research is needed",
+      "further enquiry remains necessary"
+    ],
+    [
+      "future work should",
+      "further work should"
+    ],
+    [
+      "in conclusion",
+      "to conclude"
+    ],
+    [
+      "in summary",
+      "on balance"
+    ],
+    [
+      "it appears that",
+      "it would seem that"
+    ],
+    [
+      "it is possible that",
+      "it may be the case that"
+    ],
+    [
+      "to some extent",
+      "to a degree"
+    ],
+    [
+      "a large number of",
+      "many"
+    ],
+    [
+      "a wide range of",
+      "many"
+    ],
+    [
+      "as a result of",
+      "because of"
+    ],
+    [
+      "a number of factors",
+      "several factors"
+    ],
+    [
+      "at the end of the day",
+      "in the final reckoning"
+    ],
+    [
+      "when it comes to",
+      "for"
+    ],
+    [
+      "in today's fast-paced world",
+      "in current practice"
+    ],
+    [
+      "it is important to note that",
+      ""
+    ],
+    [
+      "it should be noted that",
+      ""
+    ],
+    [
+      "needless to say",
+      "plainly"
+    ],
+    [
+      "first and foremost",
+      "above all"
+    ],
+    [
+      "last but not least",
+      "finally"
+    ],
+    [
+      "first of all",
+      "to begin with"
+    ],
+    [
+      "in addition to this",
+      "alongside this"
+    ],
+    [
+      "on the one hand",
+      "in one respect"
+    ],
+    [
+      "on the other hand",
+      "in the opposing respect"
+    ],
+    [
+      "is crucial for",
+      "is central to"
+    ],
+    [
+      "it is essential for",
+      "it is necessary for"
+    ],
+    [
+      "a comprehensive overview of",
+      "a thorough account of"
+    ],
+    [
+      "offer a",
+      "present"
+    ],
+    [
+      "provide a",
+      "give"
+    ]
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "addition": [
+    "in addition",
+    "additionally",
+    "beyond this",
+    "what is more",
+    "equally important",
+    "by the same token",
+    "coupled with this"
+  ],
+  "contrast": [
+    "conversely",
+    "on the other hand",
+    "in contrast",
+    "by comparison",
+    "paradoxically",
+    "counterintuitively"
+  ],
+  "cause": [
+    "consequently",
+    "as a result",
+    "therefore",
+    "thus",
+    "accordingly",
+    "for this reason",
+    "on account of this"
+  ],
+  "clarification": [
+    "in other words",
+    "that is to say",
+    "to clarify",
+    "put differently",
+    "stated another way",
+    "to be specific"
+  ],
+  "sequence": [
+    "subsequently",
+    "following this",
+    "in the next stage",
+    "thereafter",
+    "in turn",
+    "proceeding further"
+  ],
+  "emphasis": [
+    "indeed",
+    "in fact",
+    "notably",
+    "remarkably",
+    "crucially",
+    "most importantly"
+  ],
+  "concession": [
+    "admittedly",
+    "granted",
+    "to be sure",
+    "it must be acknowledged",
+    "notwithstanding this"
+  ]
+}

@@ -1,0 +1,40 @@
+name: Feature request
+description: A change that would make the chain better
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This skill is a chain with a fixed order. A feature that fits the chain is
+        easier to accept than one that adds a step.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the problem
+      description: The situation you are in, not the solution you have in mind
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like to happen
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Which stage
+      options:
+        - academic editor
+        - live pattern check
+        - humaniser
+        - similarity audit
+        - proof run
+        - the whole chain
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have considered

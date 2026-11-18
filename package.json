@@ -1,0 +1,68 @@
+{
+  "name": "mash-ai-text-diector-and-humaniser",
+  "version": "1.0.0",
+  "description": "One agent skill that runs the academic writing audit chain: live AI pattern detection against the Wikipedia signs of AI writing page, humanising, similarity measurement and reduction, and a proof run",
+  "type": "module",
+  "main": "scripts/audit.mjs",
+  "bin": {
+    "mash-audit": "scripts/audit.mjs",
+    "mash-rewrite": "scripts/rewrite-docx.mjs",
+    "mash-lint": "scripts/pattern_lint.py"
+  },
+  "files": [
+    "SKILL.md",
+    "scripts/",
+    "rules/",
+    "references/",
+    "agents/"
+  ],
+  "scripts": {
+    "test": "node scripts/selftest.mjs",
+    "lint": "node scripts/lint-skill.mjs",
+    "audit": "node scripts/audit.mjs",
+    "live": "python scripts/fetch_patterns.py --force"
+  },
+  "keywords": [
+    "ai-writing-detection",
+    "ai-detector",
+    "humanize-text",
+    "humaniser",
+    "ai-pattern-checker",
+    "wikipedia-signs-of-ai-writing",
+    "plagiarism-checker",
+    "similarity-check",
+    "turnitin",
+    "paraphrasing",
+    "citation-audit",
+    "harvard-referencing",
+    "academic-writing",
+    "docx",
+    "agent-skill",
+    "claude-code-skill",
+    "codex-skill",
+    "opencode-skill",
+    "offline",
+    "zero-dependencies"
+  ],
+  "author": "KDBN (Khaled Bhuiyan) <kdbn121@gmail.com>",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "KDBN",
+      "url": "https://github.com/kdbn121"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser/issues"
+  },
+  "homepage": "https://github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

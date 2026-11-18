@@ -1,0 +1,21 @@
+SPDX-License-Identifier: MIT
+// Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved.
+// Part of the turnitin-evasion project. See LICENSE in the repository root.
+{
+  "_comment": "Example plan for scripts/rewrite-docx.mjs. Copy it, then edit the old and new values to match the exact current text of a run in your document. The old value must match exactly one run or the script aborts without writing.",
+  "replace": [
+    {
+      "old": "The exact current text of one run in your document, copied precisely.",
+      "new": "Your replacement wording, which must keep the same meaning."
+    },
+    {
+      "old": "A second run you also want to change.",
+      "new": "Its replacement."
+    }
+  ],
+  "protect": [
+    "Text that must survive byte-identical, such as a table cell value.",
+    "An italicised term that must keep its formatting.",
+    "A quotation that must stay a quotation."
+  ]
+}

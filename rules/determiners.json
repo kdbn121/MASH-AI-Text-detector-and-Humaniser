@@ -1,0 +1,25 @@
+{
+  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "several": [
+    "numerous",
+    "multiple",
+    "various"
+  ],
+  "many": [
+    "numerous"
+  ],
+  "some": [
+    "certain"
+  ],
+  "few": [
+    "scarce",
+    "sparse"
+  ],
+  "each": [
+    "every"
+  ],
+  "every": [
+    "each"
+  ],
+  "_comment": "The entry for 'all' was removed. 'all' cannot be swapped for 'every' or 'entire' in front of a bare plural noun, because the noun would have to become singular: 'all metrics' cannot become 'every metrics' or 'entire metrics'. The entry for 'such' was removed for the same reason, and because 'aforementioned' is a legalistic tic that reads as padding. 'individual' was removed from the pool for 'each', because 'each severity' cannot become 'individual severity'."
+}

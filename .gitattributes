@@ -1,0 +1,11 @@
+# Keep the repository consistent across platforms.
+* text=auto eol=lf
+*.md text diff=markdown
+*.mjs text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.png binary
+*.jpg binary
+*.zip binary

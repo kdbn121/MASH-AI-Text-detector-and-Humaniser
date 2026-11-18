@@ -1,0 +1,23 @@
+Tide clocks and their upkeep
+
+The tide clock on the harbour wall was made by a clockmaker who worked in brass and
+had no training in astronomy. He knew the moon well enough, though, and every month
+he set the dial by hand from tables he copied out of an almanac. The mechanism behind
+the dial was a simple float in a sealed cylinder. Seawater filled the cylinder as the
+tide rose, and the float rose with it, turning a small wheel.
+
+Visitors often assume the clock is electronic. It is not. Each spring the keeper
+takes the mechanism apart, dries the cylinder and clears the salt that has collected
+in the screw threads. The job takes an afternoon. The clock loses time in the same
+way every winter, and the keeper resets it every spring without fuss.
+
+This is an important consideration for anyone looking after a mechanical tide clock.
+It deserves to be noted that the mechanism requires regular attention, and that the
+salt in the screw threads is the main cause of the loss of time in the winter months.
+In addition, the keeper reports that the reset takes only a few minutes once the
+mechanism is dry.
+
+What interests me about the thing is not the clock itself. It is that a device built
+for one purpose outlasted the trade that made it. Nobody orders brass tide clocks
+now, and nobody learns the job. The knowledge survives because one person at a time
+still climbs the tower, and still knows which screw to undo first.

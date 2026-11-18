@@ -1,0 +1,166 @@
+{
+  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "_comment": "Citation style definitions. Each style is data, not code, so a new style or a corrected rule never needs a change to the engine. The fields are: label, the name shown to the user. family, author-date for styles that cite by author and year, numeric for styles that cite by number, notes for styles whose long form is a footnote. inTextEtaAfter, how many authors are named in the text before the abbreviation is used; 0 means every author is named. etaItalic, whether the abbreviation is italic. commaBeforeYear, whether a comma stands between the name and the year inside brackets. referenceEtaAfter, how many authors are listed in the reference list before the abbreviation is used; 0 means every author is listed. referenceSort, the order the reference list is written in. doiRequired, whether a reference without a link is a defect. Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT The Harvard entry lists every author in the reference list, which is the form most journals that use Harvard ask for; the variants that want three names and then the abbreviation are a matter of the journal.",
+  "styles": {
+    "apa7": {
+      "label": "APA (7th Edition)",
+      "family": "author-date",
+      "inTextEtaAfter": 3,
+      "etaItalic": false,
+      "commaBeforeYear": true,
+      "referenceEtaAfter": 20,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "mla9": {
+      "label": "MLA (9th Edition)",
+      "family": "author-page",
+      "inTextEtaAfter": 3,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "harvard": {
+      "label": "Harvard Style",
+      "family": "author-date",
+      "inTextEtaAfter": 3,
+      "etaItalic": true,
+      "commaBeforeYear": true,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "ieee": {
+      "label": "IEEE Style",
+      "family": "numeric",
+      "inTextEtaAfter": 3,
+      "etaItalic": true,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 6,
+      "referenceSort": "numeric",
+      "doiRequired": true
+    },
+    "chicago17": {
+      "label": "Chicago Manual of Style (17th Edition)",
+      "family": "notes",
+      "inTextEtaAfter": 4,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "vancouver": {
+      "label": "Vancouver Style",
+      "family": "numeric",
+      "inTextEtaAfter": 0,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 6,
+      "referenceSort": "numeric",
+      "doiRequired": false
+    },
+    "ama11": {
+      "label": "AMA (11th Edition)",
+      "family": "numeric",
+      "inTextEtaAfter": 0,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 3,
+      "referenceSort": "numeric",
+      "doiRequired": false
+    },
+    "turabian9": {
+      "label": "Turabian (9th Edition)",
+      "family": "notes",
+      "inTextEtaAfter": 4,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "mhra4": {
+      "label": "MHRA (4th Edition)",
+      "family": "notes",
+      "inTextEtaAfter": 3,
+      "etaItalic": true,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "oscola4": {
+      "label": "OSCOLA (4th Edition)",
+      "family": "notes",
+      "inTextEtaAfter": 4,
+      "etaItalic": true,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "bluebook21": {
+      "label": "The Bluebook (21st Edition)",
+      "family": "notes",
+      "inTextEtaAfter": 3,
+      "etaItalic": true,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "asa7": {
+      "label": "ASA (7th Edition)",
+      "family": "author-date",
+      "inTextEtaAfter": 3,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "aaa": {
+      "label": "AAA (American Anthropological Association)",
+      "family": "author-date",
+      "inTextEtaAfter": 4,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "apsa": {
+      "label": "APSA (American Political Science Association)",
+      "family": "author-date",
+      "inTextEtaAfter": 3,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
+    "acs": {
+      "label": "ACS Guide to Scholarly Communication",
+      "family": "author-date",
+      "inTextEtaAfter": 3,
+      "etaItalic": true,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": true
+    },
+    "cse8": {
+      "label": "CSE (8th Edition)",
+      "family": "author-date",
+      "inTextEtaAfter": 3,
+      "etaItalic": false,
+      "commaBeforeYear": false,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    }
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>social preview</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; }
+  body {
+    background:
+      radial-gradient(900px 620px at 12% -10%, #14406a 0%, rgba(20,64,106,0) 60%),
+      radial-gradient(760px 560px at 104% 108%, #2c1f52 0%, rgba(44,31,82,0) 58%),
+      #06090e;
+    font-family: 'Segoe UI', Inter, system-ui, -apple-system, sans-serif;
+    padding: 60px 66px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    position: relative; overflow: hidden;
+  }
+  .grid-bg {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.028) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.028) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(760px 520px at 22% 26%, #000 0%, transparent 78%);
+  }
+  .row { position: relative; display: flex; align-items: center; gap: 14px; }
+  .badge {
+    font-size: 15px; font-weight: 800; letter-spacing: 3px; color: #07120d;
+    background: linear-gradient(135deg, #7ee2b8, #34d399); padding: 8px 17px; border-radius: 7px;
+  }
+  .tag { font-size: 15px; color: #8a97a4; letter-spacing: .5px; }
+  h1 {
+    position: relative; font-size: 50px; line-height: 1.08; color: #f4f8fb;
+    font-weight: 800; letter-spacing: -1.8px; margin-bottom: 18px;
+  }
+  h1 .mark { color: #34d399; }
+  h1 .suffix { color: #8496a5; font-weight: 700; font-size: 34px; letter-spacing: -1px; }
+  .sub {
+    position: relative; font-size: 23px; line-height: 1.45; max-width: 940px; color: #9fb0bf;
+  }
+  .sub b { color: #dbe6ef; font-weight: 600; }
+  .chips { position: relative; display: flex; gap: 11px; flex-wrap: wrap; }
+  .chip {
+    font-size: 15px; color: #cfe0f0; background: rgba(255,255,255,.055);
+    border: 1px solid rgba(255,255,255,.1); padding: 10px 15px; border-radius: 8px;
+  }
+  .chip b { color: #34d399; font-weight: 700; }
+  .foot {
+    position: relative; display: flex; justify-content: space-between; align-items: flex-end;
+    border-top: 1px solid rgba(255,255,255,.08); padding-top: 20px;
+  }
+  .left { font-size: 15px; color: #7d8b98; line-height: 1.7; }
+  .left b { color: #b7c6d3; font-weight: 600; }
+  .kdbn { font-size: 20px; font-weight: 800; letter-spacing: 4px; color: #6ee7b7; }
+</style>
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <div class="row">
+    <span class="badge">KDBN</span>
+    <span class="tag">MIT licensed &nbsp;&bull;&nbsp; Node.js &nbsp;&bull;&nbsp; Python &nbsp;&bull;&nbsp; zero dependencies</span>
+  </div>
+
+  <div>
+    <h1>MASH-AI-Text-<span class="mark">Diector</span><span class="suffix">-and-Humaniser</span><br>one skill, five stages, one proof</h1>
+    <p class="sub">Live <b>AI pattern detection</b>, <b>humanising</b>, and a measured <b>similarity audit</b> over the body only, with the before and after numbers.</p>
+  </div>
+
+  <div class="chips">
+    <span class="chip"><b>editor</b> argument</span>
+    <span class="chip"><b>live</b> pattern list</span>
+    <span class="chip"><b>humanise</b> tone</span>
+    <span class="chip"><b>audit</b> similarity</span>
+    <span class="chip"><b>prove</b> it</span>
+  </div>
+
+  <div class="foot">
+    <div class="left">
+      <b>github.com/kdbn121/MASH-AI-Text-Diector-and-Humaniser</b><br>
+      Copyright (c) 2026 KDBN (Khaled Bhuiyan)
+    </div>
+    <div class="kdbn">KDBN</div>
+  </div>
+</body>
+</html>

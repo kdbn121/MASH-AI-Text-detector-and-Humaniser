@@ -1,0 +1,76 @@
+{
+  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "_note": "Discourse marker rotation. Each key is a marker and each value is a set of substitutes that can stand in the same slot in a sentence. A substitute must be an in-sentence adverbial, not a sentence-level connective, so that it does not change the syntax. Do not add a phrase that appears on the audit's machine-phrase list.",
+  "however": [
+    "nevertheless",
+    "nonetheless",
+    "that said"
+  ],
+  "therefore": [
+    "consequently",
+    "hence",
+    "accordingly"
+  ],
+  "moreover": [
+    "additionally",
+    "beyond this",
+    "as well as"
+  ],
+  "although": [
+    "even though",
+    "granted that"
+  ],
+  "thus": [
+    "accordingly",
+    "hence"
+  ],
+  "indeed": [
+    "in fact",
+    "certainly",
+    "to be sure"
+  ],
+  "similarly": [
+    "likewise",
+    "comparably",
+    "equally"
+  ],
+  "specifically": [
+    "precisely",
+    "in particular",
+    "namely"
+  ],
+  "notably": [
+    "remarkably",
+    "conspicuously",
+    "strikingly"
+  ],
+  "meanwhile": [
+    "concurrently",
+    "simultaneously",
+    "in the interim"
+  ],
+  "conversely": [
+    "on the contrary",
+    "by contrast",
+    "contrastingly"
+  ],
+  "ultimately": [
+    "eventually",
+    "in the last resort"
+  ],
+  "essentially": [
+    "fundamentally",
+    "at its core",
+    "in substance"
+  ],
+  "finally": [
+    "lastly",
+    "in the end",
+    "at last"
+  ],
+  "in conclusion": [
+    "to conclude",
+    "on balance",
+    "in closing"
+  ]
+}

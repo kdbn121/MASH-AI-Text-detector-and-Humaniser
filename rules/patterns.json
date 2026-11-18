@@ -1,0 +1,1202 @@
+{
+ "source_url": "https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing",
+ "raw_url": "https://en.wikipedia.org/w/index.php?title=Wikipedia:Signs_of_AI_writing&action=raw",
+ "fetched_at": "2026-11-18T12:36:52Z",
+ "fetched_epoch": 1795005412.2887473,
+ "section_count": 79,
+ "sections": [
+  {
+   "name": "Caveats",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "AI detection tools",
+   "shortcuts": [
+    "WP:AIDETECTION",
+    "WP:AIDETECTOR"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Your detection ability",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Content",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Undue emphasis on significance, legacy, and broader trends",
+   "shortcuts": [
+    "WP:AILEGACY",
+    "WP:AITREND"
+   ],
+   "watch_words": [
+    "stands/serves as",
+    "is a testament/reminder",
+    "a crucial/pivotal/vital/significant/key role/moment",
+    "underscores/highlights its importance/significance",
+    "reflects broader",
+    "symbolizing its ongoing/enduring/lasting",
+    "contributing to the",
+    "setting the stage for",
+    "marking/shaping the",
+    "represents/marks a shift",
+    "key turning point",
+    "evolving landscape",
+    "focal point",
+    "indelible mark",
+    "deeply rooted",
+    "distinction because... ..."
+   ],
+   "examples": [],
+   "lint_terms": [
+    "stands",
+    "serves as",
+    "is a testament",
+    "reminder",
+    "reflects broader",
+    "symbolizing its ongoing",
+    "enduring",
+    "lasting",
+    "contributing to the",
+    "setting the stage for",
+    "marking",
+    "shaping the",
+    "represents",
+    "marks a shift",
+    "key turning point",
+    "evolving landscape",
+    "focal point",
+    "indelible mark",
+    "deeply rooted",
+    "distinction because"
+   ]
+  },
+  {
+   "name": "<span class=\"anchor\" id=\"It has shaped discussions about...\"></span>Claims that a topic has influenced discussions about related topics",
+   "shortcuts": [
+    "WP:ITSHAPESDISCUSSIONS"
+   ],
+   "watch_words": [
+    "has/have shaped conversations/discussions/debate about"
+   ],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "<span class=\"anchor\" id=\"Attribution\"></span>Undue emphasis on notability, attribution, and media coverage",
+   "shortcuts": [
+    "WP:AIATTR",
+    "WP:OVERATTRIBUTION"
+   ],
+   "watch_words": [
+    "independent coverage",
+    "local/regional/national/ media outlets",
+    "music/business/tech outlets",
+    "trade publications",
+    "cited/featured/profiled in"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "independent coverage",
+    "local",
+    "regional",
+    "national",
+    "media outlets",
+    "music",
+    "business",
+    "tech outlets",
+    "trade publications",
+    "cited",
+    "featured",
+    "profiled in"
+   ]
+  },
+  {
+   "name": "<span class=\"anchor\" id=\"AIIDENTIFY\"></span>Undue emphasis on identification by primary or tertiary sources",
+   "shortcuts": [
+    "WP:AIDENTIFY",
+    "WP:AIIDENTIFY"
+   ],
+   "watch_words": [
+    "was identified by as ...",
+    "is listed in",
+    "his/her professional profile lists"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "was identified by as",
+    "is listed in",
+    "his",
+    "her professional profile lists"
+   ]
+  },
+  {
+   "name": "<span class=\"anchor\" id=\"Online presence\"></span>Undue emphasis on online presence",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Superficial analyses",
+   "shortcuts": [
+    "WP:SUPERFICIAL"
+   ],
+   "watch_words": [
+    "highlighting/underscoring/emphasizing ...",
+    "ensuring ...",
+    "reflecting/symbolizing ...",
+    "contributing to ...",
+    "cultivating/fostering ...",
+    "encompassing ...",
+    "enhancing ...",
+    "valuable insights",
+    "align/resonate with"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "highlighting",
+    "underscoring",
+    "emphasizing",
+    "ensuring",
+    "reflecting",
+    "symbolizing",
+    "contributing to",
+    "cultivating",
+    "fostering",
+    "encompassing",
+    "enhancing",
+    "valuable insights",
+    "align",
+    "resonate with"
+   ]
+  },
+  {
+   "name": "Vague expression of connection or association",
+   "shortcuts": [
+    "WP:AIASSOCIATION",
+    "WP:AICONNECT"
+   ],
+   "watch_words": [
+    "in connection with/to ...",
+    "connected with/to",
+    "in association with ...",
+    "associated with"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "in connection with",
+    "connected with",
+    "in association with",
+    "associated with"
+   ]
+  },
+  {
+   "name": "Vague attributions and overgeneralization of opinions",
+   "shortcuts": [],
+   "watch_words": [
+    "Industry reports",
+    "Observers have cited",
+    "Experts argue",
+    "Some critics argue",
+    "several sources/publications (when only few sources are cited)",
+    "such as (before exhaustive word lists)",
+    "..."
+   ],
+   "examples": [],
+   "lint_terms": [
+    "Industry reports",
+    "Observers have cited",
+    "Experts argue",
+    "Some critics argue",
+    "such as (before exhaustive word lists)"
+   ]
+  },
+  {
+   "name": "Outline-like conclusions about challenges and future prospects",
+   "shortcuts": [
+    "WP:FACESCHALLENGES"
+   ],
+   "watch_words": [
+    "Despite its... faces several challenges...",
+    "Despite these challenges",
+    "Challenges and Legacy",
+    "Future Outlook ..."
+   ],
+   "examples": [],
+   "lint_terms": [
+    "Despite its... faces several challenges",
+    "Despite these challenges",
+    "Challenges and Legacy",
+    "Future Outlook"
+   ]
+  },
+  {
+   "name": "\"Awards and recognition\" section",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Language and grammar",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "High density of \"AI vocabulary\" words",
+   "shortcuts": [],
+   "watch_words": [
+    "Additionally (especially beginning a sentence)",
+    "<ref name=\"geng\" /><ref name=\"huang\" /> align with",
+    "<ref name=\"Juzek\" /><ref name=\"Kobak\" /> boasts (meaning \"has\")",
+    "<ref name=\"Juzek2\" /> bolstered",
+    "<ref name=\"Kobak\" /> crucial",
+    "<ref name=\"economistJul2026\" /> delve",
+    "2025"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "<ref name=\"Juzek2\"",
+    "> bolstered",
+    "<ref name=\"Kobak\"",
+    "> crucial",
+    "<ref name=\"economistJul2026\"",
+    "> delve",
+    "2025"
+   ]
+  },
+  {
+   "name": "Avoidance of basic copulatives (\"is\"/\"are\" phrases)",
+   "shortcuts": [
+    "WP:AINOCOPULA",
+    "WP:AIREPRESENTS"
+   ],
+   "watch_words": [
+    "serves as/stands as/marks/functions as/operates as/represents",
+    "boasts/features/maintains/offers",
+    "refers to"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "boasts",
+    "features",
+    "maintains",
+    "offers",
+    "refers to"
+   ]
+  },
+  {
+   "name": "Negative parallelisms",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Not just <var>X</var>, but also <var>Y</var>",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Not <var>X</var>, but <var>Y</var>",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "<var>Y</var> rather than <var>X</var>",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Leads treating Wikipedia lists or broad article titles as proper nouns",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Rule of three",
+   "shortcuts": [
+    "WP:RO3"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Style",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Communication intended for the user",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Collaborative communication",
+   "shortcuts": [],
+   "watch_words": [
+    "a Wikipedia-style article",
+    "I hope this helps",
+    "Of course!",
+    "Certainly!",
+    "You're absolutely right!",
+    "Would you like...",
+    "is there anything else",
+    "let me know",
+    "more detailed breakdown",
+    "here is a ...",
+    "... ...before"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "a Wikipedia-style article",
+    "I hope this helps",
+    "Of course!",
+    "Certainly!",
+    "You're absolutely right!",
+    "Would you like",
+    "is there anything else",
+    "let me know",
+    "more detailed breakdown",
+    "here is a",
+    "before"
+   ]
+  },
+  {
+   "name": "Before creating a real Wikipedia page",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Hedging disclaimers about source availability and recommended usage",
+   "shortcuts": [
+    "WP:AIDISCLAIMER"
+   ],
+   "watch_words": [
+    "While specific details are limited/scarce...",
+    "not widely available/documented/disclosed",
+    "...in the provided/available sources / search results...",
+    "should be as... rather than...",
+    "based on available information",
+    "...does not by itself establish... ..."
+   ],
+   "examples": [],
+   "lint_terms": [
+    "While specific details are limited/scarce",
+    "not widely available/documented/disclosed",
+    "should be as... rather than",
+    "based on available information",
+    "does not by itself establish"
+   ]
+  },
+  {
+   "name": "<span class=\"anchor\" id=\"Didactic disclaimers\"></span>2023–2024",
+   "shortcuts": [
+    "WP:DIDACTIC"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "2024–2025",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Mid-2026–present",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Phrasal templates and placeholder text",
+   "shortcuts": [
+    "WP:AIPLACEHOLDER"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Date placeholders",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "URL placeholders",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Markup irregularities",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Citations",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Broken external links",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Invalid DOI and ISBNs",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "DOIs that lead to unrelated articles",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Book citations without page numbers or URLs",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Incorrect or unconventional use of references",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "utm_source{{=}}",
+   "shortcuts": [
+    "WP:UTMSOURCE"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Links to searches",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Named references declared in references section but unused in article body",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "<span class=\"anchor\" id=\"Comments\"></span> Comment-specific indicators",
+   "shortcuts": [
+    "WP:AICOMMENT"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "<span class=\"anchor\" id=\"Edit summaries\"></span> Edit summaries",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "General examples",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Canned assurance of adherence to Wikipedia policies and guidelines",
+   "shortcuts": [],
+   "watch_words": [
+    "ensured that... adheres to",
+    "refined",
+    "enhanced",
+    "enriched",
+    "streamlined",
+    "improved",
+    "in compliance/complies with",
+    "Wikipedia",
+    "revised",
+    "verifiability",
+    "neutrality",
+    "neutral tone",
+    "encyclopedic tone",
+    "clarity",
+    "flow"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "ensured that... adheres to",
+    "refined",
+    "enhanced",
+    "enriched",
+    "streamlined",
+    "improved",
+    "in compliance",
+    "complies with",
+    "Wikipedia",
+    "revised",
+    "verifiability",
+    "neutrality",
+    "neutral tone",
+    "encyclopedic tone",
+    "clarity",
+    "flow"
+   ]
+  },
+  {
+   "name": "Specific mentions of \"preserved\" or \"retained\" information, \"avoided\" mistakes, and other procedural statements",
+   "shortcuts": [],
+   "watch_words": [
+    "preserved/preserving",
+    "retained/retaining",
+    "avoided/avoiding",
+    "ensured/ensuring",
+    "aimed/aiming to"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "preserved",
+    "preserving",
+    "retained",
+    "retaining",
+    "avoided",
+    "avoiding",
+    "ensured",
+    "ensuring",
+    "aimed",
+    "aiming to"
+   ]
+  },
+  {
+   "name": "Overemphasis on presence/reliability of citations",
+   "shortcuts": [],
+   "watch_words": [
+    "added sourced",
+    "added verified",
+    "added",
+    "improved attribution",
+    "with sources"
+   ],
+   "examples": [],
+   "lint_terms": [
+    "added sourced",
+    "added verified",
+    "added",
+    "improved attribution",
+    "with sources"
+   ]
+  },
+  {
+   "name": "Overemphasis on parameter/template names and markup idiosyncracies",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Reference to AfC review",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Miscellaneous",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Pronounced shift in writing style",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "\"Submission statements\" in AfC drafts",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Pre-placed maintenance templates",
+   "shortcuts": [
+    "WP:AIDECLINE"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Canned user pages",
+   "shortcuts": [
+    "WP:AIUSERPAGE"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Permissions gaming",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Differences between LLMs",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Biases in content",
+   "shortcuts": [
+    "WP:AIBIAS",
+    "WP:LLMBIAS"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Signs of human writing",
+   "shortcuts": [
+    "WP:HUMANSIGNS"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Age of text relative to ChatGPT launch",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Ability to explain one's own editorial choices",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Syntax",
+   "shortcuts": [
+    "WP:AISYNTAX",
+    "WP:LLMSYNTAX"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Ineffective indicators",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Historical indicators",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Promotional and advertisement-like language (2023–2025)",
+   "shortcuts": [],
+   "watch_words": [
+    "boasts a",
+    "vibrant",
+    "rich",
+    "profound",
+    "enhancing",
+    "showcasing",
+    "exemplifies",
+    "commitment to",
+    "natural beauty",
+    "nestled",
+    "in the heart of",
+    "groundbreaking",
+    "renowned",
+    "featuring",
+    "diverse array",
+    "..."
+   ],
+   "examples": [],
+   "lint_terms": [
+    "boasts a",
+    "vibrant",
+    "rich",
+    "profound",
+    "enhancing",
+    "showcasing",
+    "exemplifies",
+    "commitment to",
+    "natural beauty",
+    "nestled",
+    "in the heart of",
+    "groundbreaking",
+    "renowned",
+    "featuring",
+    "diverse array"
+   ]
+  },
+  {
+   "name": "Statements about knowledge cutoffs (2022–2023)",
+   "shortcuts": [
+    "WP:AICUTOFF"
+   ],
+   "watch_words": [
+    "Up to my last training update",
+    "as of my last knowledge update ..."
+   ],
+   "examples": [],
+   "lint_terms": [
+    "Up to my last training update",
+    "as of my last knowledge update"
+   ]
+  },
+  {
+   "name": "Section summaries",
+   "shortcuts": [],
+   "watch_words": [
+    "In summary",
+    "In conclusion",
+    "Overall ..."
+   ],
+   "examples": [],
+   "lint_terms": [
+    "In summary",
+    "In conclusion",
+    "Overall"
+   ]
+  },
+  {
+   "name": "Prompt refusal",
+   "shortcuts": [],
+   "watch_words": [
+    "as an AI language model",
+    "as a large language model",
+    "I cannot offer medical advice",
+    "but I can...",
+    "I'm sorry ..."
+   ],
+   "examples": [],
+   "lint_terms": [
+    "as an AI language model",
+    "as a large language model",
+    "I cannot offer medical advice",
+    "but I can",
+    "I'm sorry"
+   ]
+  },
+  {
+   "name": "Overuse of em dashes (2022–September 2026)",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Abrupt cut offs",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Outdated ''access-date'' parameters",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Lexical diversity/elegant variation",
+   "shortcuts": [
+    "WP:AIELEVAR"
+   ],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "See also",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Notes",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "References",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "Further reading",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  },
+  {
+   "name": "External links",
+   "shortcuts": [],
+   "watch_words": [],
+   "examples": [],
+   "lint_terms": []
+  }
+ ],
+ "watch_word_count": 126,
+ "watch_words": [
+  "stands/serves as",
+  "is a testament/reminder",
+  "a crucial/pivotal/vital/significant/key role/moment",
+  "underscores/highlights its importance/significance",
+  "reflects broader",
+  "symbolizing its ongoing/enduring/lasting",
+  "contributing to the",
+  "setting the stage for",
+  "marking/shaping the",
+  "represents/marks a shift",
+  "key turning point",
+  "evolving landscape",
+  "focal point",
+  "indelible mark",
+  "deeply rooted",
+  "distinction because... ...",
+  "has/have shaped conversations/discussions/debate about",
+  "independent coverage",
+  "local/regional/national/ media outlets",
+  "music/business/tech outlets",
+  "trade publications",
+  "cited/featured/profiled in",
+  "was identified by as ...",
+  "is listed in",
+  "his/her professional profile lists",
+  "highlighting/underscoring/emphasizing ...",
+  "ensuring ...",
+  "reflecting/symbolizing ...",
+  "contributing to ...",
+  "cultivating/fostering ...",
+  "encompassing ...",
+  "enhancing ...",
+  "valuable insights",
+  "align/resonate with",
+  "in connection with/to ...",
+  "connected with/to",
+  "in association with ...",
+  "associated with",
+  "Industry reports",
+  "Observers have cited",
+  "Experts argue",
+  "Some critics argue",
+  "several sources/publications (when only few sources are cited)",
+  "such as (before exhaustive word lists)",
+  "...",
+  "Despite its... faces several challenges...",
+  "Despite these challenges",
+  "Challenges and Legacy",
+  "Future Outlook ...",
+  "Additionally (especially beginning a sentence)",
+  "<ref name=\"geng\" /><ref name=\"huang\" /> align with",
+  "<ref name=\"Juzek\" /><ref name=\"Kobak\" /> boasts (meaning \"has\")",
+  "<ref name=\"Juzek2\" /> bolstered",
+  "<ref name=\"Kobak\" /> crucial",
+  "<ref name=\"economistJul2026\" /> delve",
+  "2025",
+  "serves as/stands as/marks/functions as/operates as/represents",
+  "boasts/features/maintains/offers",
+  "refers to",
+  "a Wikipedia-style article",
+  "I hope this helps",
+  "Of course!",
+  "Certainly!",
+  "You're absolutely right!",
+  "Would you like...",
+  "is there anything else",
+  "let me know",
+  "more detailed breakdown",
+  "here is a ...",
+  "... ...before",
+  "While specific details are limited/scarce...",
+  "not widely available/documented/disclosed",
+  "...in the provided/available sources / search results...",
+  "should be as... rather than...",
+  "based on available information",
+  "...does not by itself establish... ...",
+  "ensured that... adheres to",
+  "refined",
+  "enhanced",
+  "enriched",
+  "streamlined",
+  "improved",
+  "in compliance/complies with",
+  "Wikipedia",
+  "revised",
+  "verifiability",
+  "neutrality",
+  "neutral tone",
+  "encyclopedic tone",
+  "clarity",
+  "flow",
+  "preserved/preserving",
+  "retained/retaining",
+  "avoided/avoiding",
+  "ensured/ensuring",
+  "aimed/aiming to",
+  "added sourced",
+  "added verified",
+  "added",
+  "improved attribution",
+  "with sources",
+  "boasts a",
+  "vibrant",
+  "rich",
+  "profound",
+  "enhancing",
+  "showcasing",
+  "exemplifies",
+  "commitment to",
+  "natural beauty",
+  "nestled",
+  "in the heart of",
+  "groundbreaking",
+  "renowned",
+  "featuring",
+  "diverse array",
+  "Up to my last training update",
+  "as of my last knowledge update ...",
+  "In summary",
+  "In conclusion",
+  "Overall ...",
+  "as an AI language model",
+  "as a large language model",
+  "I cannot offer medical advice",
+  "but I can...",
+  "I'm sorry ..."
+ ],
+ "lint_terms": [
+  "stands",
+  "serves as",
+  "is a testament",
+  "reminder",
+  "reflects broader",
+  "symbolizing its ongoing",
+  "enduring",
+  "lasting",
+  "contributing to the",
+  "setting the stage for",
+  "marking",
+  "shaping the",
+  "represents",
+  "marks a shift",
+  "key turning point",
+  "evolving landscape",
+  "focal point",
+  "indelible mark",
+  "deeply rooted",
+  "distinction because",
+  "independent coverage",
+  "local",
+  "regional",
+  "national",
+  "media outlets",
+  "music",
+  "business",
+  "tech outlets",
+  "trade publications",
+  "cited",
+  "featured",
+  "profiled in",
+  "was identified by as",
+  "is listed in",
+  "his",
+  "her professional profile lists",
+  "highlighting",
+  "underscoring",
+  "emphasizing",
+  "ensuring",
+  "reflecting",
+  "symbolizing",
+  "contributing to",
+  "cultivating",
+  "fostering",
+  "encompassing",
+  "enhancing",
+  "valuable insights",
+  "align",
+  "resonate with",
+  "in connection with",
+  "connected with",
+  "in association with",
+  "associated with",
+  "Industry reports",
+  "Observers have cited",
+  "Experts argue",
+  "Some critics argue",
+  "such as (before exhaustive word lists)",
+  "Despite its... faces several challenges",
+  "Despite these challenges",
+  "Challenges and Legacy",
+  "Future Outlook",
+  "<ref name=\"Juzek2\"",
+  "> bolstered",
+  "<ref name=\"Kobak\"",
+  "> crucial",
+  "<ref name=\"economistJul2026\"",
+  "> delve",
+  "2025",
+  "boasts",
+  "features",
+  "maintains",
+  "offers",
+  "refers to",
+  "a Wikipedia-style article",
+  "I hope this helps",
+  "Of course!",
+  "Certainly!",
+  "You're absolutely right!",
+  "Would you like",
+  "is there anything else",
+  "let me know",
+  "more detailed breakdown",
+  "here is a",
+  "before",
+  "While specific details are limited/scarce",
+  "not widely available/documented/disclosed",
+  "should be as... rather than",
+  "based on available information",
+  "does not by itself establish",
+  "ensured that... adheres to",
+  "refined",
+  "enhanced",
+  "enriched",
+  "streamlined",
+  "improved",
+  "in compliance",
+  "complies with",
+  "Wikipedia",
+  "revised",
+  "verifiability",
+  "neutrality",
+  "neutral tone",
+  "encyclopedic tone",
+  "clarity",
+  "flow",
+  "preserved",
+  "preserving",
+  "retained",
+  "retaining",
+  "avoided",
+  "avoiding",
+  "ensured",
+  "aimed",
+  "aiming to",
+  "added sourced",
+  "added verified",
+  "added",
+  "improved attribution",
+  "with sources",
+  "boasts a",
+  "vibrant",
+  "rich",
+  "profound",
+  "showcasing",
+  "exemplifies",
+  "commitment to",
+  "natural beauty",
+  "nestled",
+  "in the heart of",
+  "groundbreaking",
+  "renowned",
+  "featuring",
+  "diverse array",
+  "Up to my last training update",
+  "as of my last knowledge update",
+  "In summary",
+  "In conclusion",
+  "Overall",
+  "as an AI language model",
+  "as a large language model",
+  "I cannot offer medical advice",
+  "but I can",
+  "I'm sorry"
+ ],
+ "lint_term_count": 145
+}
