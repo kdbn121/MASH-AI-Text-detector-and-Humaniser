@@ -1,5 +1,5 @@
 {
-  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "_copyright": "Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
   "_note": "Discourse marker rotation. Each key is a marker and each value is a set of substitutes that can stand in the same slot in a sentence. A substitute must be an in-sentence adverbial, not a sentence-level connective, so that it does not change the syntax. Do not add a phrase that appears on the audit's machine-phrase list.",
   "however": [
     "nevertheless",

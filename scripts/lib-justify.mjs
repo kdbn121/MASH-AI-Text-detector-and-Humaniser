@@ -1,7 +1,7 @@
 // lib-justify.mjs — set Word paragraph alignment to justified.
 //
 // SPDX-License-Identifier: MIT
-// Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved.
+// Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved.
 // Part of the Plagiarism-minimiser-KDBN project. See LICENSE in the repository root.
 //
 // Justified text spreads the space between words so that every line but the

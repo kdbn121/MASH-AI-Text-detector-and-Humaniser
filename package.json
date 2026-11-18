@@ -44,11 +44,11 @@
     "offline",
     "zero-dependencies"
   ],
-  "author": "KDBN (Khaled Bhuiyan) <kdbn121@gmail.com>",
+  "author": "MASH (Khaled Bhuiyan) <kdbn121@gmail.com>",
   "license": "MIT",
   "contributors": [
     {
-      "name": "KDBN",
+      "name": "MASH",
       "url": "https://github.com/kdbn121"
     }
   ],

@@ -87,7 +87,7 @@ producing "the results analyses show".
 
 The banks live in `rules/` as plain JSON, so a user can extend them for their own
 discipline without touching any code. Every bank carries a `_copyright` key so the
-KDBN mark travels with the data. A bank whose data is a list stores it under
+MASH mark travels with the data. A bank whose data is a list stores it under
 `items`.
 
 **No bank may produce a phrase that the audit flags as a machine marker.** The
@@ -506,4 +506,4 @@ untouched runs between them, and an untouched run of 8 words is still a match.
 
 ---
 
-*Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. Licensed under the MIT Licence.*
+*Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved. Licensed under the MIT Licence.*

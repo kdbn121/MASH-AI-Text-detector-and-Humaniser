@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // SPDX-License-Identifier: MIT
-// Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved.
+// Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved.
 //
 // Part of the plagiarism-minimiser-KDBN project. See LICENSE in the repository root.
 // purge.mjs — strip invisible tracking Unicode and C2PA content credentials.

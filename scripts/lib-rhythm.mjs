@@ -1,7 +1,7 @@
 // lib-rhythm.mjs -- the cadence of a passage.
 //
 // SPDX-License-Identifier: MIT
-// Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved.
+// Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved.
 // Part of the Plagiarism-minimiser-KDBN project. See LICENSE in the repository root.
 //
 // WHY THIS FILE EXISTS

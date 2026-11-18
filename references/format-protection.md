@@ -181,4 +181,4 @@ If the document uses -ise endings, every rewrite uses -ise endings.
 
 ---
 
-*Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. Licensed under the MIT Licence.*
+*Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved. Licensed under the MIT Licence.*

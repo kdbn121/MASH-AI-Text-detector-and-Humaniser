@@ -1,6 +1,6 @@
 {
-  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
-  "_comment": "Synonym bank for the transform engine. Each value is either a flat array used in any context, or an object with noun / verb / adj pools for words whose part of speech decides which replacement is safe. Only single-word replacements are permitted, because a multi-word replacement cannot be inflected to match the original form. Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT",
+  "_copyright": "Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "_comment": "Synonym bank for the transform engine. Each value is either a flat array used in any context, or an object with noun / verb / adj pools for words whose part of speech decides which replacement is safe. Only single-word replacements are permitted, because a multi-word replacement cannot be inflected to match the original form. Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT",
   "analyse": [
     "examine",
     "scrutinise",

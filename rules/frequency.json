@@ -1,5 +1,5 @@
 {
-  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "_copyright": "Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
   "_source": "Word frequencies from Norvig's count_1w.txt, built from the Google Web Trillion Word Corpus. The list is the top 6000 words in rank order.",
   "_note": "The index of a word plus one is its rank. Rank is used as a surprisal proxy: a low rank means the word is the predictable choice, which is what a detector reads as machine-like.",
   "items": [

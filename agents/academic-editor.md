@@ -32,4 +32,4 @@ Work with the chain: `ai-text-humanizer` for tone and the named AI patterns,
 `plagiarism-minimiser-kdbn` for similarity and the rewrite of the user's own
 prose, `live-ai-pattern-check` for the live pattern source and the live checkers.
 
-<!-- SPDX-License-Identifier: MIT | Copyright (c) 2026 KDBN (Khaled Bhuiyan) -->
+<!-- SPDX-License-Identifier: MIT | Copyright (c) 2026 MASH (Khaled Bhuiyan) -->

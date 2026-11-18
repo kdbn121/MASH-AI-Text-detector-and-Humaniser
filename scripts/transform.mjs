@@ -19,7 +19,7 @@
 // applies the changes with its own structural safety checks.
 //
 // SPDX-License-Identifier: MIT
-// Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved.
+// Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved.
 // Part of the Plagiarism-minimiser-KDBN project. See LICENSE in the repository root.
 
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
@@ -34,7 +34,7 @@ import { frontCandidate, openerKey, repairCadence, varyOpeners, wordCount } from
 const HERE = dirname(fileURLToPath(import.meta.url));
 const RULES = join(HERE, '..', 'rules');
 
-// Every rule bank carries a "_copyright" key so the KDBN mark travels with the
+// Every rule bank carries a "_copyright" key so the MASH mark travels with the
 // data. A bank whose data is a list stores it under "items".
 function load(dir, name) {
   const raw = JSON.parse(readFileSync(join(dir, name), 'utf8'));

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // SPDX-License-Identifier: MIT
-// Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved.
+// Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved.
 //
 // Part of the plagiarism-minimiser-KDBN project. See LICENSE in the repository root.
 // selftest.mjs — build fixtures, then verify the whole pipeline works.
@@ -363,7 +363,7 @@ console.log('[6] transform engine');
   check('inflect leaves a multi-word replacement alone', inflect.inflectMatch('the state', 'Government') === 'The state');
 
   // Every rule bank has to be valid JSON with the expected shape. A bank whose
-  // data is a list stores it under "items", so the KDBN mark can travel with it.
+  // data is a list stores it under "items", so the MASH mark can travel with it.
   const rulesDir = join(here, '..', 'rules');
   for (const [file, kind] of [
     ['phrases.json', 'list'],
@@ -388,7 +388,7 @@ console.log('[6] transform engine');
         ? !Array.isArray(parsed) && Array.isArray(parsed.items)
         : !Array.isArray(parsed));
     check('rule bank ' + file + ' is a valid ' + kind + ' bank', shaped);
-    check('rule bank ' + file + ' carries the KDBN mark', !!parsed && !!parsed._copyright);
+    check('rule bank ' + file + ' carries the MASH mark', !!parsed && !!parsed._copyright);
   }
 
   const synonyms = JSON.parse(readFileSync(join(rulesDir, 'synonyms.json'), 'utf8'));

@@ -73,7 +73,7 @@ Everything you need to create the repository on github.com and push the folder.
 ## What the folder already contains
 
 - A clean git history on the branch `main`, two commits, no working copy changes.
-- The MIT LICENSE with the KDBN mark.
+- The MIT LICENSE with the MASH mark.
 - The CI workflow, the issue templates, the pull request template and CODEOWNERS.
 - The photo card, the social preview and the chain diagram as PNGs.
 - The HTML sources and the render script, so the images can be regenerated.

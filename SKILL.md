@@ -190,4 +190,4 @@ scripts are Python 3 with no third party packages. Use `node` and `python`, neve
 
 ## Licence
 
-MIT. Copyright (c) 2026 KDBN (Khaled Bhuiyan).
+MIT. Copyright (c) 2026 MASH (Khaled Bhuiyan).

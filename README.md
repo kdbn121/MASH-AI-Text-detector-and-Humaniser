@@ -202,7 +202,7 @@ offline, zero dependencies, English academic writing, Word document, batch audit
 
 ## Licence
 
-MIT. Copyright (c) 2026 KDBN (Khaled Bhuiyan).
+MIT. Copyright (c) 2026 MASH (Khaled Bhuiyan).
 
 ## Links
 

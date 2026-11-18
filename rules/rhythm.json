@@ -1,6 +1,6 @@
 {
-  "_copyright": "Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
-  "_comment": "Cadence thresholds for the rhythm repair. A paragraph whose sentence lengths vary less than flatCv is treated as flat. The repair stops as soon as the variation reaches targetCv, or when no safe repair is left. maxFuseWords is the limit for a join made with 'and', maxJoinWords the limit for a join made with a semicolon, and maxSemicolonJoins the number of semicolon joins allowed in one paragraph. Copyright (c) 2026 KDBN (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT",
+  "_copyright": "Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT. Part of the Plagiarism-minimiser-KDBN project.",
+  "_comment": "Cadence thresholds for the rhythm repair. A paragraph whose sentence lengths vary less than flatCv is treated as flat. The repair stops as soon as the variation reaches targetCv, or when no safe repair is left. maxFuseWords is the limit for a join made with 'and', maxJoinWords the limit for a join made with a semicolon, and maxSemicolonJoins the number of semicolon joins allowed in one paragraph. Copyright (c) 2026 MASH (Khaled Bhuiyan). All rights reserved. SPDX-License-Identifier: MIT",
   "flatCv": 0.45,
   "targetCv": 0.55,
   "minSentences": 3,
