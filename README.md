@@ -41,6 +41,10 @@ writing" is edited by anyone at any time, so a stored copy of it is wrong within
 weeks. This skill fetches the live page on every run and rebuilds the list from the
 page itself, then lints the document against what the page says now.
 
+The references get the same treatment. A reference is only as good as the record
+behind it, so every DOI is resolved at the live Crossref API and every entry without
+a DOI is looked up at Crossref and Semantic Scholar before the document is handed in.
+
 ## Install
 
 The skill is a folder with a `SKILL.md` in it. Copy it into the skills folder of the
@@ -80,6 +84,37 @@ node scripts/rewrite-docx.mjs "assignment.docx" --out "assignment-rewritten.docx
 python scripts/pattern_lint.py "assignment-rewritten.docx" --no-title-page-no-refs
 node scripts/audit.mjs "assignment-rewritten.docx" --source "source.txt"
 ```
+
+## The live citation check
+
+The references are checked against the live scholarly databases, in the same way the AI
+patterns are checked against the live Wikipedia page.
+
+```powershell
+python scripts/live_citation_check.py "assignment.docx" --out-dir "check"
+python scripts/live_citation_check.py "references.txt" --style obu-harvard
+```
+
+Every DOI is resolved at the Crossref REST API. An entry without a DOI is looked up by
+title at Crossref and at the Semantic Scholar Graph API. The record is then compared
+with the entry on the title, the first author, the year, the volume, the issue and the
+pages, and the verdict is one of:
+
+| Verdict | What it means |
+| --- | --- |
+| VERIFIED | the DOI resolves to a real record and the title matches |
+| METADATA DIFFERENCE | the DOI resolves to the right work, but a detail differs, and each difference is named |
+| DOI MISMATCH | the DOI resolves to a different work, or does not resolve at all |
+| MATCH FOUND | a real record matches the title, the author and the year |
+| VERIFY MANUALLY | no record was found in the databases that were checked |
+| CHECK FAILED | an endpoint did not answer, so no verdict was reached |
+
+The free browser based checker at <https://proofreaderpro.ai/ai-citation-checker> does
+the same lookups and is the manual route when the script cannot reach an endpoint. Its
+verdicts are in `references/live-checkers.md`.
+
+A VERIFY MANUALLY verdict is not a verdict of guilt. Books, reports, chapters and very
+recent work are often absent from citation databases.
 
 ## The scope rule that matters
 
@@ -168,6 +203,7 @@ MASH-AI-Text-detector-and-Humaniser/
 | `fetch_patterns.py` | Python | Fetches the live Wikipedia pattern list |
 | `pattern_lint.py` | Python | Lints a document against the live list, body only |
 | `live_checkers.py` | Python | Prepares the body for the live checkers and attempts the endpoints |
+| `live_citation_check.py` | Python | Verifies a reference list against the live Crossref and Semantic Scholar APIs |
 
 ## Continuous integration
 

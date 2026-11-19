@@ -1,6 +1,6 @@
 {
   "name": "mash-ai-text-detector-and-humaniser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "One agent skill that runs the academic writing audit chain: live AI pattern detection against the Wikipedia signs of AI writing page, humanising, similarity measurement and reduction, and a proof run",
   "type": "module",
   "main": "scripts/audit.mjs",
@@ -34,6 +34,9 @@
     "turnitin",
     "paraphrasing",
     "citation-audit",
+    "live-citation-check",
+    "crossref",
+    "semantic-scholar",
     "harvard-referencing",
     "academic-writing",
     "docx",

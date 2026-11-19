@@ -1255,6 +1255,55 @@ console.log('[12] the citation engine');
       textOf(citeXml) === textOf(citeBody),
       textOf(citeXml).slice(0, 80));
   }
+
+  // --- the live citation check ---------------------------------------------
+  const py = (args) => {
+    try {
+      const out = execFileSync('python', args, { stdio: 'pipe' });
+      return { code: 0, stdout: out.toString(), stderr: '' };
+    } catch (err) {
+      return {
+        code: err.status === undefined ? 1 : err.status,
+        stdout: err.stdout ? err.stdout.toString() : '',
+        stderr: err.stderr ? err.stderr.toString() : '',
+      };
+    }
+  };
+
+  const obu = bank.get('obu-harvard');
+  check('the live citation check knows the OBU Harvard style',
+    !!obu && obu.etaItalic === true, JSON.stringify(obu));
+  check('OBU Harvard asks for an italic abbreviation', obu && obu.etaItalic === true);
+  check('OBU Harvard lists every author in the reference list', obu && obu.referenceEtaAfter === 0);
+
+  const scriptsDir = join(here).replace(/\\/g, '/');
+  const pyCode = [
+    'import sys, json',
+    "sys.path.insert(0, '" + scriptsDir + "')",
+    'import live_citation_check as m',
+    'e = m.parse_entry("Morris, R. and O\'Riordan, S. (2017) \'Prevention of falls in hospital\', '
+      + 'Clinical Medicine, 17(4), pp. 360-362.")',
+    "print(json.dumps({k: e[k] for k in ('title','year','volume','issue')}))",
+  ].join('\n');
+  const parsed = py(['-c', pyCode]);
+  let parsedJson = null;
+  try {
+    parsedJson = JSON.parse(parsed.stdout.trim().split('\n').pop());
+  } catch (err) {
+    parsedJson = null;
+  }
+  check('the live citation check reads the title past an apostrophe in a surname',
+    !!parsedJson && parsedJson.title === 'Prevention of falls in hospital',
+    parsed.stdout.slice(-160));
+  check('the live citation check reads the year',
+    !!parsedJson && parsedJson.year === '2017', JSON.stringify(parsedJson));
+  check('the live citation check reads the volume and the issue',
+    !!parsedJson && parsedJson.volume === '17' && parsedJson.issue === '4',
+    JSON.stringify(parsedJson));
+
+  const badCiteStyle = py([join(here, 'live_citation_check.py'), 'refs.txt', '--style', 'not-a-style']);
+  check('the live citation check refuses an unknown style', badCiteStyle.code !== 0,
+    String(badCiteStyle.code));
 }
 
 console.log('');

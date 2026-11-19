@@ -32,6 +32,16 @@
       "referenceSort": "author",
       "doiRequired": false
     },
+    "obu-harvard": {
+      "label": "OBU Harvard (Open University Harvard)",
+      "family": "author-date",
+      "inTextEtaAfter": 3,
+      "etaItalic": true,
+      "commaBeforeYear": true,
+      "referenceEtaAfter": 0,
+      "referenceSort": "author",
+      "doiRequired": false
+    },
     "ieee": {
       "label": "IEEE Style",
       "family": "numeric",

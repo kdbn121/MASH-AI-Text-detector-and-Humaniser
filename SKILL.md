@@ -43,6 +43,20 @@ argument behind it was wrong.
 Working file: `agents/academic-editor.md`. The agent definition is what the mash-mighty
 chain runs for this stage.
 
+The references are checked live, not from memory. The reference list is the one part of
+the document that is read rather than rewritten by the chain, because every stage is a
+measurement of the body.
+
+```
+python scripts/live_citation_check.py "<file.docx>" --out-dir "<dir>"
+```
+
+Every DOI is resolved at the Crossref REST API and every entry without a DOI is looked
+up by title at Crossref and at the Semantic Scholar Graph API. The verdict for each
+entry is VERIFIED, METADATA DIFFERENCE, DOI MISMATCH, MATCH FOUND, VERIFY MANUALLY or
+CHECK FAILED. An endpoint that does not answer is reported as a failure, never as a
+verdict. The routes for the browser based checker are in `references/live-checkers.md`.
+
 ### Stage 2, the live pattern check
 
 The pattern list is never read from a stored copy. It is fetched from the live
@@ -162,6 +176,10 @@ node scripts/rewrite-docx.mjs "<file>" --out "<out>" --plan "<plan.json>"
 # citations
 node scripts/audit-citations.mjs "<file>" --style harvard
 node scripts/format-citations.mjs "<file>" --style harvard --out "<out>"
+
+# live citation check
+python scripts/live_citation_check.py "<file.docx>" --out-dir "<dir>"
+python scripts/live_citation_check.py "<refs.txt>" --style obu-harvard
 
 # formatting
 node scripts/justify-docx.mjs "<file>" --out "<out>"

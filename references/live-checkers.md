@@ -65,6 +65,59 @@ similarity audit use, so the three measurements agree.
 
 - CompWrite, <https://compwrite.com>: the domain does not resolve from this machine, so it was removed rather than left as a broken route.
 
+## The citation checkers
+
+### ProofreaderPro AI Citation Checker
+
+- Site: <https://proofreaderpro.ai/ai-citation-checker>
+- Automated endpoint attempted: none, the page runs the checks in the browser.
+- Manual command: open the site, paste the reference list, one reference per line, press
+  Check references and read the verdict for each entry.
+- Note: free, no sign-up, up to 100 references per run. The page verifies every DOI
+  against Crossref and Semantic Scholar in the browser, and a non-DOI entry is matched on
+  its title, first author and year.
+- The four verdicts are VERIFIED, MATCH FOUND, DOI MISMATCH and VERIFY MANUALLY. A
+  fifth outcome, CHECK FAILED, means the databases could not be reached from the browser
+  at that moment.
+- Observed on 2026-11-18 from this machine: the page loads and the check runs. On a
+  42 entry list it returned 24 verified, 7 matched, 9 to verify manually and 2 failed.
+- Caution: a MATCH FOUND on a grey literature entry is often a loose title match to an
+  unrelated work. The matched record is shown, so the title, the author and the year of
+  the record must be compared with the entry before the reference is changed.
+
+### The automated live citation check
+
+The same databases are reachable directly, without the browser, so the check can be run
+from the command line and repeated as part of a chain.
+
+```
+python scripts/live_citation_check.py "<file.docx>" --out-dir "<dir>"
+python scripts/live_citation_check.py "<refs.txt>" --style obu-harvard
+python scripts/live_citation_check.py "<file.docx>" --style harvard --json
+```
+
+The script reads a DOCX or a text file of references. For every entry it resolves the
+DOI at the Crossref REST API, and when there is no DOI it searches Crossref and the
+Semantic Scholar Graph API by title. It compares the record with the entry on the title,
+the first author, the year, the volume, the issue and the pages, and it reports one of:
+
+- VERIFIED: the DOI resolves to a real record and the title matches.
+- METADATA DIFFERENCE: the DOI resolves to the right work but a detail differs, for
+  example the year of the online record and the year of the printed issue. Each
+  difference is named.
+- DOI MISMATCH: the DOI resolves to a different work, or does not resolve at all.
+- MATCH FOUND: a real record matches the title, the author and the year.
+- VERIFY MANUALLY: no record was found in the databases that were checked.
+- CHECK FAILED: an endpoint did not answer. It is reported as a failure, never as a
+  verdict on the reference.
+
+The script also reports the offline style findings it can see in a DOCX, including a
+roman "et al." where the style asks for an italic one. The reference list is read for
+this check, because the reference list is where the italics live.
+
+The report and the JSON record are written to the output folder as
+`live-citation-check.txt` and `live-citation-check.json`.
+
 ## Running the preparation
 
 ```
