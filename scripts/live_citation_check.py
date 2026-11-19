@@ -514,6 +514,7 @@ def main() -> int:
     }
 
     out_dir = args.out_dir or os.path.dirname(os.path.abspath(args.path))
+    os.makedirs(out_dir, exist_ok=True)
     json_path = os.path.join(out_dir, "live-citation-check.json")
     report_path = os.path.join(out_dir, "live-citation-check.txt")
     with open(json_path, "w", encoding="utf-8") as fh:
