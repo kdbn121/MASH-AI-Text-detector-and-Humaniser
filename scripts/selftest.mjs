@@ -1304,6 +1304,20 @@ console.log('[12] the citation engine');
   const badCiteStyle = py([join(here, 'live_citation_check.py'), 'refs.txt', '--style', 'not-a-style']);
   check('the live citation check refuses an unknown style', badCiteStyle.code !== 0,
     String(badCiteStyle.code));
+
+  const failedLookup = py(['-c', [
+    'import sys, json',
+    "sys.path.insert(0, '" + scriptsDir + "')",
+    'import live_citation_check as m',
+    "m.crossref_query = lambda title: ('FAIL', 'no answer')",
+    "m.semantic_query = lambda title: ('FAIL', 'no answer')",
+    "e = m.parse_entry('Some Organisation (2020) A Report Title. London: Publisher.')",
+    "r = m.check_entry(e)",
+    "print(r['verdict'])",
+  ].join('\n')]);
+  check('a lookup that never reached a database is a failure, not a verdict',
+    failedLookup.stdout.trim().split('\n').pop() === 'CHECK FAILED',
+    failedLookup.stdout.slice(-160));
 }
 
 console.log('');

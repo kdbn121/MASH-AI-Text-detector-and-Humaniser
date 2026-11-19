@@ -374,6 +374,12 @@ def check_entry(entry: dict, deep: bool = True) -> dict:
                 "doi": (sem_best.get("externalIds") or {}).get("DOI", ""),
             }
         else:
+            if status != "OK" and status2 != "OK":
+                # neither database answered, so no verdict can be reached
+                result["verdict"] = "CHECK FAILED"
+                result["detail"] = ("neither Crossref nor Semantic Scholar answered, "
+                                    "so the entry was not looked up at all")
+                return result
             result["verdict"] = "VERIFY MANUALLY"
             result["detail"] = ("no record was found in the databases that were checked; "
                                 "books, reports and very recent work are often absent")
